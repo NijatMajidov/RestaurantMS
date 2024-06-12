@@ -1,0 +1,92 @@
+/*------------------------------------*\
+    #MODALS
+\*------------------------------------*/
+
+body.modal-open {
+    padding-right: 0 !important
+}
+
+body.modal-open .affix {
+    //display: none;
+}
+
+.modal {
+    z-index: 1080;
+    background: rgba(34, 34, 34, 0.95)
+}
+
+.modal::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+.modal-backdrop {
+    z-index: 1020;
+    background-color: @color-heading;
+    display: none;
+}
+
+.modal-dialog {
+    margin-top: 80px;
+}
+
+.modal button.close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 31px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    background-color: @color-theme;
+    color: @color-white;
+    z-index: 1040;
+    opacity: 1;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 4px;
+}
+
+.modal button.close:focus,
+.modal button.close:hover {
+    background-color: @color-heading
+}
+
+.reservation-popup .modal-content {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	border:none;
+	border-radius: none;
+}
+
+.reservation-popup .modal-body {
+    padding: 0;
+}
+
+.reservation-popup .reservation-form {
+    -moz-box-shadow: 0 2px 3px rgba(40, 40, 40, 0.26);
+    -webkit-box-shadow: 0 2px 3px rgba(40, 40, 40, 0.26);
+    box-shadow: 0 2px 3px rgba(40, 40, 40, 0.26);
+    position: relative;
+}
+
+.reservation-popup .reservation-form:after {
+    position: absolute;
+    content: "";
+    left: 2px;
+    right: 2px;
+    bottom: -2px;
+    height: 10px;
+    border-radius: 0 0 2px 2px;
+    background-color: @color-white;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    z-index: -1;
+}

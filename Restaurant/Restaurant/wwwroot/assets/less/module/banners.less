@@ -1,0 +1,196 @@
+/*------------------------------------*\
+    #Banners
+\*------------------------------------*/
+
+.banner .banner-panel .banner--img {
+    margin-bottom: 28px;
+}
+
+.banner .banner-panel .banner--content {
+    padding: 0 10px;
+}
+
+.banner .banner-panel .banner--content h3 {
+    color: @color-theme;
+    font-size: 30px;
+    font-family: @font-secondary;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.banner .banner-panel .banner--content h4 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.banner .banner-panel .banner--content p {
+    font-size: 14px;
+}
+
+.banner .btn--link {
+    font-size: 20px;
+    font-weight: 400;
+    color: @color-theme;
+    font-family: @font-heading;
+    text-transform: none;
+    margin-right: 30px;
+}
+
+/* Banner #5 */
+
+.banner-5 .banner--desc {
+    color: @color-secondary;
+    font-family: @font-secondary;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    padding: 0 15px;
+    margin-bottom: 55px;
+}
+
+.history-panel h6 {
+    color: @color-theme;
+    font-family: @font-secondary;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 15px;
+}
+
+.history-panel h3 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 29px;
+    margin-bottom: 0;
+}
+
+.history-panel .divider--shape-13 {
+    margin-top: 26px;
+    margin-bottom: 24px;
+}
+
+.history-panel p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 0;
+}
+
+.banner-2 .banner-img img,
+.banner-3 .banner-img img {
+    margin-top: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Banner #6 */
+
+.banner-6 .panel--logos li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.banner-6 .panel--heading {
+    font-size: 40px;
+    font-family: @font-secondary;
+    color: @color-heading;
+    font-weight: 400;
+    line-height: 40px;
+    margin-bottom: 39px
+}
+
+.banner-6 .panel--details {
+    padding: 0;
+    margin-bottom: 0
+}
+
+.banner-6 .panel--details li {
+    font-size: 14px;
+    line-height: 30px;
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+.banner-6 .panel--details li::before {
+    content: "•";
+    color: @color-heading;
+    font-size: 30px;
+    position: absolute;
+    left: 0
+}
+
+/* Banner #7 */
+
+.banner-7 .banner-panel .banner--img {
+    position: relative;
+}
+
+.banner-7 .banner-panel .banner--img:before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(#000));
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000);
+    background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000);
+    background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #000);
+    background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000);
+    background-image: linear-gradient(top, rgba(0, 0, 0, 0), #000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='rgba(0, 0, 0, 0)', endColorStr='#000');
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.86;
+}
+
+.banner-7 .banner-panel .banner--img .banner--overlay {
+    position: absolute;
+    bottom: 10px;
+    color: #ffffff;
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 100%;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banner-panel {
+        margin-bottom: 30px;
+    }
+    .banner-5 .banner--desc {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .banner-1 .banner-panel .banner--img,
+    .banner-7 .banner-panel .banner--img {
+        max-width: 340px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+	
+	.banner-carousel img{
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+		width: auto !important;
+	}
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+	
+	.banner-2 .banner-img img{
+		margin-top: 50px;
+	}
+	.banner-6 .panel--logos li {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+}

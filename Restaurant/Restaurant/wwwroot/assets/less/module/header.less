@@ -1,0 +1,141 @@
+/*------------------------------------*\
+    #HEADER
+\*------------------------------------*/
+
+.header {
+    height: 100px;
+}
+
+.header-transparent {
+    background-color: transparent;
+}
+
+.header-transparent + .mtop-100,
+.header-transparent + .page-title,
+.header-transparent + .slider {
+    position: relative;
+    margin-top: -100px;
+}
+
+
+.header-transparent-topbar + .mtop-100,
+.header-transparent-topbar + .page-title,
+.header-transparent-topbar + .slider {
+    position: relative;
+    margin-top: -155px;
+}
+
+/* Top Bar */
+
+.top-bar {
+    height: 50px;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.top-bar .top--contact li {
+    margin-right: 21px;
+}
+
+.top-bar .top--contact li:last-child {
+    margin-right: 0;
+}
+
+.top-bar .top--contact {
+    line-height: 50px;
+    color: #cecece;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.top-bar .top--contact i {
+    margin-right: 6px;
+    color: @color-theme;
+}
+
+.top-bar .top--social {
+    color: #cecece;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+.top-bar .top--social a {
+    color: #cecece;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 19px;
+}
+
+.top-bar .top--social .module-reservation .btn-popup {
+    margin-top: 0;
+    color: #fff;
+    line-height: 22px;
+    font-weight: 700;
+    margin-right: 0;
+}
+
+.top-bar.topbar-light {
+    background-color: @color-white;
+}
+
+.top-bar.topbar-light .top--contact,
+.top-bar.topbar-light .top--social {
+    color: #a5a5a5;
+}
+
+.top-bar.topbar-light .top--social a {
+    color: #333;
+}
+
+.top-bar .top--social a:hover,
+.top-bar.topbar-light .top--social a:hover {
+    color: @color-theme;
+}
+
+.top-bar.topbar-transparent {
+    background-color: transparent;
+}
+
+.header-transparent-topbar .top-bar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.top-bar .bottom-bar-border {
+    position: relative;
+}
+
+.top-bar .bottom-bar-border:after {
+    content: "";
+    width: 100%;
+    height: 9px;
+    background: url(../images/background/shapes/shape-topbar.png) center repeat-x;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* Transparent Header */
+
+.static-affix {
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}

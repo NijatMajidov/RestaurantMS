@@ -1,0 +1,152 @@
+/*------------------------------------*\
+    #Testimonial
+\*------------------------------------*/
+
+.testimonial-1 .owl-item {
+    padding-bottom: 5px;
+}
+
+.testimonial-1 .testimonial-panel {
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.26);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.26);
+    -o-box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.26);
+    box-shadow: 0px 2px 3px 0px rgba(40, 40, 40, 0.26);
+    border-radius: 2px;
+    background-color: @color-white;
+    padding: 40px;
+    position: relative;
+    text-align: center;
+}
+
+.testimonial-1 .testimonial-panel:before {
+    content: "";
+    width: 16px;
+    height: 42px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    background-image: url(../images/testimonial/ribbon.png);
+}
+
+.testimonial-1 .testimonial-panel:after {
+    position: absolute;
+    content: "";
+    left: 2px;
+    right: 2px;
+    bottom: -2px;
+    height: 10px;
+    border-radius: 0 0 2px 2px;
+    background-color: @color-white;
+    -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    -ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.26);
+    z-index: -1;
+}
+
+.testimonial .testimonial-panel p {
+    font-size: 23px;
+    font-family: @font-heading;
+    font-weight: 400;
+    color: @color-dark2;
+    line-height: 32px;
+    margin-bottom: 23px;
+}
+
+.testimonial--rating {
+    margin-bottom: 20px;
+}
+
+.testimonial--rating i {
+    color: #ffc80a;
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+
+.testimonial-panel .testimonial--img {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.testimonial-panel .testimonial--meta .testimonial--img:before {
+    content: "";
+    width: 54px;
+    height: 54px;
+    -webkit-border-radius: 100%;
+    -khtml-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid @color-theme;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    margin-left: -27px;
+    opacity: 0.8;
+}
+
+.testimonial-panel .testimonial--img img {
+    width: 46px;
+    height: 46px;
+    line-height: 54px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.testimonial--author h4 {
+    font-family: @font-body;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #a5a5a5;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+
+.testimonial-4 .testimonial--author h4 {
+    color: #f9f9f9;
+}
+
+/* Testimonial #5 */
+
+.testimonial-5 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.testimonial-5 .testimonial-panel .testimonial--img {
+    margin-bottom: 40px;
+}
+
+.testimonial-5 .testimonial-panel .testimonial--img img {
+    border-radius: 0;
+}
+
+.testimonial-5 .testimonial--author h4 {
+    color: @color-theme;
+}
+
+.testimonial-5 .testimonial-panel p {
+    font-size: 40px;
+    font-family: @font-secondary;
+    font-weight: 400;
+    color: @color-white;
+    line-height: 39px;
+    margin-bottom: 26px;
+}
+
+.testimonial .carousel-dots .owl-controls {
+    margin-top: 43px;
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .testimonial-5 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
