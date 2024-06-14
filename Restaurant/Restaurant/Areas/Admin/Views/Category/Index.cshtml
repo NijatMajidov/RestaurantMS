@@ -1,0 +1,73 @@
+﻿@model List<CategoryGetDTO>
+@{
+    int count = 1;
+}
+<main>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col">
+                <!-- Title Start -->
+                <section class="scroll-section" id="title">
+                    <div class="page-title-container">
+                        <h1 class="mb-0 pb-0 display-4">Tables</h1>
+                        <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                            <ul class="breadcrumb pt-0">
+                                <li class="breadcrumb-item"><a href="Dashboards.Default.html">Home</a></li>
+                                <li class="breadcrumb-item"><a href="Interface.html">Interface</a></li>
+                                <li class="breadcrumb-item"><a href="Interface.Content.html">Category</a></li>
+                            </ul>
+                        </nav>
+                        
+                    </div>
+                </section>
+
+                <!-- Title End -->
+                <!-- Content Start -->
+                <div>
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <p class="mb-0">Examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap.</p>
+                        </div>
+                    </div>
+
+                    <!-- Basic Start -->
+                    <section class="scroll-section" id="basic">
+                        <h2 class="small-title">Catagories</h2>
+                        <a class="btn btn-primary" asp-action="Create">Create</a>
+                        <div class="card mb-5">
+
+                            <div class="card-body">
+
+                                <table class="table">
+
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">Id</th>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">Edit</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        @foreach(var item in Model)
+                                        {
+                                            <tr>
+                                            <th scope="row">@count</th>
+                                            <td>@item.Id</td>
+                                            <td>@item.Name</td>
+                                                <td>
+                                                    <a class="btn btn-info" asp-action="Update" asp-route-id="@item.Id">Update</a>
+                                                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                                </td>
+                                            </tr>
+                                            count++;
+                                        }
+
+                                    </tbody>
+                                </table>
+                                <div asp-validation-summary=All class="text-danger"></div>
+                            </div>
+                        </div>
+                    </section>

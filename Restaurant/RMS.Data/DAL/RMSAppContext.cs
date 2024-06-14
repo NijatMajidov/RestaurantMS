@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using RMS.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace RMS.Data.DAL
 {
-    public class RMSAppContext : DbContext
+    public class RMSAppContext : IdentityDbContext<AppUser>
     {
         public RMSAppContext(DbContextOptions<RMSAppContext> options) : base(options)
         {

@@ -4357,6 +4357,2630 @@
       "PackagePath": "staticwebassets\\assets\\revolution\\revolution-addons\\whiteboard\\js\\source\\revolution.addon.whiteboard.js"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\main.css",
+      "PackagePath": "staticwebassets\\manage\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\styles.css",
+      "PackagePath": "staticwebassets\\manage\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\OverlayScrollbars.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\OverlayScrollbars.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\autoComplete.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\autoComplete.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\baguetteBox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\bootstrap-datepicker3.standalone.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\bootstrap-datepicker3.standalone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\datatables.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\datatables.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\dropzone.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\dropzone.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\fullcalendar.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\fullcalendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\glide.core.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\glide.core.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\introjs.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\introjs.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\jquery.contextMenu.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\jquery.contextMenu.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\nouislider.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\plyr.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\plyr.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\quill.bubble.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\quill.bubble.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\quill.snow.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\quill.snow.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\select2-bootstrap4.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\select2-bootstrap4.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\select2.min.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\css\\vendor\\tagify.css",
+      "PackagePath": "staticwebassets\\manage\\css\\vendor\\tagify.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\Read Me.txt",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\Read Me.txt"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\demo-files\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\demo-files\\demo.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\demo.html",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\demo.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\fonts\\CS-Interface.svg",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\fonts\\CS-Interface.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\fonts\\CS-Interface.ttf",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\fonts\\CS-Interface.ttf"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\fonts\\CS-Interface.woff",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\fonts\\CS-Interface.woff"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\selection.json",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\selection.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\font\\CS-Interface\\style.css",
+      "PackagePath": "staticwebassets\\manage\\font\\CS-Interface\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\acorn-icons-commerce.js",
+      "PackagePath": "staticwebassets\\manage\\icon\\acorn-icons-commerce.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\acorn-icons-interface.js",
+      "PackagePath": "staticwebassets\\manage\\icon\\acorn-icons-interface.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\acorn-icons-learning.js",
+      "PackagePath": "staticwebassets\\manage\\icon\\acorn-icons-learning.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\acorn-icons-medical.js",
+      "PackagePath": "staticwebassets\\manage\\icon\\acorn-icons-medical.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\acorn-icons.js",
+      "PackagePath": "staticwebassets\\manage\\icon\\acorn-icons.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\icon\\index.html",
+      "PackagePath": "staticwebassets\\manage\\icon\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\background\\background-blue.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\background\\background-blue.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-horizontal-short-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-horizontal-short-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-horizontal-short-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-horizontal-short-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-square-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-square-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-square-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-square-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-square-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-square-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-square-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-square-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-standard-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-standard-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-standard-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-standard-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-standard-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-standard-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-vertical-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-vertical-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-vertical-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-vertical-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-vertical-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-vertical-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-vertical-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-vertical-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-wide-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-wide-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-wide-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-wide-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-wide-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-wide-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\cta-wide-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\cta-wide-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\lunch.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\lunch.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\vertical-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\vertical-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\vertical-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\vertical-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\vertical-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\vertical-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\banner\\vertical-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\banner\\vertical-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-5.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-6.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-7.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-7.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\blog\\blog-image-8.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\blog\\blog-image-8.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\codecanyon-light-background.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\codecanyon-light-background.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\dhl.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\dhl.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\fedex.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\fedex.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\graphicriver-light-background.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\graphicriver-light-background.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\photodune-light-background.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\photodune-light-background.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\themeforest-light-background.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\themeforest-light-background.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\brand\\ups.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\brand\\ups.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-114x114.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-114x114.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-120x120.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-120x120.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-144x144.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-144x144.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-152x152.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-152x152.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-57x57.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-57x57.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-60x60.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-60x60.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-72x72.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-72x72.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\apple-touch-icon-76x76.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\apple-touch-icon-76x76.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon-128.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon-128.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon-196x196.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon-196x196.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon-96x96.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon-96x96.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\mstile-144x144.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\mstile-144x144.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\mstile-150x150.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\mstile-150x150.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\mstile-310x150.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\mstile-310x150.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\mstile-310x310.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\mstile-310x310.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\favicon\\mstile-70x70.png",
+      "PackagePath": "staticwebassets\\manage\\img\\favicon\\mstile-70x70.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\access-token.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\access-token.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\database.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\database.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-accounts.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-accounts.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-analytics.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-analytics.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-appointment.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-appointment.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-configure.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-configure.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-database.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-database.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-documentation.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-documentation.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-email.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-email.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-experiment.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-experiment.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-integrate.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-integrate.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-launch.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-launch.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-performance.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-performance.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-phone.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-phone.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-platforms.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-platforms.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-review.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-review.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-server.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-server.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-storage.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-storage.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\illustration\\icon-support.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\illustration\\icon-support.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-blue-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-blue-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-blue-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-blue-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-green-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-green-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-green-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-green-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-lime-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-lime-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-lime-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-lime-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-pink-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-pink-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-pink-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-pink-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-purple-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-purple-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-purple-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-purple-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-red-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-red-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-red-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-red-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-sky-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-sky-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-sky-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-sky-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-teal-dark.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-teal-dark.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\logo\\logo-teal-light.svg",
+      "PackagePath": "staticwebassets\\manage\\img\\logo\\logo-teal-light.svg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-5.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\large\\product-6.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\large\\product-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-10.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-10.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-5.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-6.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-7.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-7.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-8.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-8.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\product\\small\\product-9.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\product\\small\\product-9.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-10.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-10.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-11.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-11.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-5.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-6.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-7.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-7.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-8.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-8.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-9.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-9.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\profile\\profile-large-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\profile\\profile-large-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-large.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-large.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-1.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-1.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-2.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-2.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-3.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-3.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-4.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-4.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-5.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-5.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\img\\video\\video-thumbnail-6.webp",
+      "PackagePath": "staticwebassets\\manage\\img\\video\\video-thumbnail-6.webp"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\apps\\calendar.js",
+      "PackagePath": "staticwebassets\\manage\\js\\apps\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\apps\\chat.js",
+      "PackagePath": "staticwebassets\\manage\\js\\apps\\chat.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\apps\\contacts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\apps\\contacts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\apps\\mailbox.js",
+      "PackagePath": "staticwebassets\\manage\\js\\apps\\mailbox.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\apps\\tasks.js",
+      "PackagePath": "staticwebassets\\manage\\js\\apps\\tasks.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\globals.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\globals.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\helpers.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\loader.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\loader.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\nav.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\nav.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\search.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\search.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\base\\settings.js",
+      "PackagePath": "staticwebassets\\manage\\js\\base\\settings.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\common.js",
+      "PackagePath": "staticwebassets\\manage\\js\\common.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\components\\cards.js",
+      "PackagePath": "staticwebassets\\manage\\js\\components\\cards.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\components\\navs.js",
+      "PackagePath": "staticwebassets\\manage\\js\\components\\navs.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\components\\progress.js",
+      "PackagePath": "staticwebassets\\manage\\js\\components\\progress.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\components\\spinners.js",
+      "PackagePath": "staticwebassets\\manage\\js\\components\\spinners.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\components\\toasts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\components\\toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\autocomplete.custom.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\autocomplete.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\charts.extend.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\charts.extend.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\checkall.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\checkall.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\datatable.extend.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\datatable.extend.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\dropzone.templates.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\dropzone.templates.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\glide.custom.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\glide.custom.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\responsivetab.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\responsivetab.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\scrollspy.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\scrollspy.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\cs\\wizard.js",
+      "PackagePath": "staticwebassets\\manage\\js\\cs\\wizard.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.autocomplete.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.autocomplete.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.datepicker.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.datepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.dropzone.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.dropzone.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.editor.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.editor.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.rating.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.rating.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.select2.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.select2.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.slider.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.slider.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.spinner.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.spinner.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.tag.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.tag.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\controls.timepicker.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\controls.timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\genericforms.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\genericforms.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\inputmask.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\inputmask.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\layouts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\layouts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\validation.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\validation.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\forms\\wizards.js",
+      "PackagePath": "staticwebassets\\manage\\js\\forms\\wizards.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\auth.forgotpassword.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\auth.forgotpassword.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\auth.login.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\auth.login.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\auth.register.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\auth.register.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\auth.resetpassword.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\auth.resetpassword.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.details.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.details.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.gallery.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.gallery.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.list.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.list.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.stats.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.stats.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.tabulardata.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.tabulardata.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.thumbnails.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.thumbnails.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blocks.users.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blocks.users.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blog.detail.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blog.detail.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\blog.home.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\blog.home.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\dashboard.analytic.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\dashboard.analytic.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\dashboard.default.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\dashboard.default.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\dashboard.visual.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\dashboard.visual.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\interface.icons.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\interface.icons.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\misc.comingsoon.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\misc.comingsoon.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\portfolio.detail.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\portfolio.detail.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\portfolio.home.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\portfolio.home.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\profile.settings.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\profile.settings.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\pages\\profile.standard.js",
+      "PackagePath": "staticwebassets\\manage\\js\\pages\\profile.standard.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\carousels.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\carousels.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\charts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\charts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\contextmenu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\contextmenu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\datatable.ajax.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\datatable.ajax.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\datatable.boxedvariations.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\datatable.boxedvariations.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\datatable.editableboxed.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\datatable.editableboxed.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\datatable.editablerows.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\datatable.editablerows.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\datatable.serverside.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\datatable.serverside.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\lightbox.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\lists.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\lists.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\notifies.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\notifies.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\players.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\players.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\progressbars.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\progressbars.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\shortcuts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\shortcuts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\plugins\\sortables.js",
+      "PackagePath": "staticwebassets\\manage\\js\\plugins\\sortables.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\manage\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\OverlayScrollbars.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\OverlayScrollbars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\autoComplete.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\autoComplete.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\autosize.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\autosize.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\baguetteBox.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\baguetteBox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\bootstrap-submenu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\bootstrap-submenu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\chartjs-plugin-crosshair.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\chartjs-plugin-crosshair.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\chartjs-plugin-datalabels.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\chartjs-plugin-datalabels.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\chartjs-plugin-rounded-bar.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\chartjs-plugin-rounded-bar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\chartjs-plugin-streaming.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\chartjs-plugin-streaming.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\clamp.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\clamp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\countdown.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datatables.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datatables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker-en-CA.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker-en-CA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ar-tn.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ar-tn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ar.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.az.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.az.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bg.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bm.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bn.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.br.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.br.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bs.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.bs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ca.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ca.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.cs.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.cs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.cy.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.cy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.da.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.da.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.de.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.de.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.el.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.el.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-AU.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-AU.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-CA.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-CA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-GB.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-GB.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-IE.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-IE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-NZ.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-NZ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-ZA.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.en-ZA.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.eo.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.eo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.es.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.es.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.et.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.et.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.eu.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.eu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fa.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fo.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fr-CH.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fr-CH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.fr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.gl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.gl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.he.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.he.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hu.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hy.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.hy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.id.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.id.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.is.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.is.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.it-CH.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.it-CH.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.it.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.it.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ja.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ja.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ka.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ka.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kh.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.km.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.km.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ko.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ko.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.kr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.lt.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.lt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.lv.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.lv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.me.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.me.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.mk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.mk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.mn.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.mn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ms.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ms.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.nl-BE.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.nl-BE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.nl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.nl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.no.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.no.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.oc.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.oc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pt-BR.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pt-BR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pt.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.pt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ro.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.rs-latin.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.rs-latin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.rs.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.rs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ru.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ru.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.si.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.si.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sq.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sq.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sr-latin.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sr-latin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sv.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sw.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.sw.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ta.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.ta.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tg.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.th.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.th.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.tr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uz-cyrl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uz-cyrl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uz-latn.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.uz-latn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.vi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.vi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.zh-CN.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.zh-CN.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.zh-TW.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\datepicker\\locales\\bootstrap-datepicker.zh-TW.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\dropzone.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\dropzone.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales-all.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales-all.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales-all.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales-all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\af.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\af.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-dz.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-dz.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-kw.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-kw.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-ly.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-ly.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-ma.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-ma.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-sa.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-sa.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar-tn.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar-tn.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ar.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ar.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\az.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\az.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\bg.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\bg.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\bn.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\bn.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\bs.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\bs.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ca.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ca.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\cs.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\cs.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\cy.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\cy.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\da.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\da.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\de-at.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\de-at.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\de.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\de.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\el.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\el.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\en-au.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\en-au.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\en-gb.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\en-gb.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\en-nz.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\en-nz.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\eo.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\eo.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\es-us.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\es-us.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\es.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\es.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\et.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\et.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\eu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\eu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\fa.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\fa.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\fi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\fi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\fr-ca.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\fr-ca.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\fr-ch.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\fr-ch.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\fr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\fr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\gl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\gl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\he.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\he.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\hi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\hi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\hr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\hr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\hu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\hu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\hy-am.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\hy-am.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\id.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\id.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\is.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\is.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\it.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\it.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ja.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ja.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ka.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ka.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\kk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\kk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ko.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ko.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\lb.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\lb.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\lt.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\lt.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\lv.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\lv.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\mk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\mk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ms.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ms.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\nb.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\nb.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ne.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ne.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\nl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\nl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\nn.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\nn.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\pl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\pl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\pt-br.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\pt-br.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\pt.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\pt.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ro.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ro.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ru.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ru.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sq.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sq.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sr-cyrl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sr-cyrl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\sv.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\sv.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ta-in.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ta-in.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\th.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\th.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\tr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\tr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\ug.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\ug.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\uk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\uk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\uz.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\uz.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\vi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\vi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\zh-cn.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\zh-cn.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\locales\\zh-tw.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\locales\\zh-tw.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\main.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\fuse.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\fuse.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\glide.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\glide.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\imask.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\imask.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\input-spinner.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\input-spinner.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\intro.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\intro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery-3.5.1.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery-3.5.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.barrating.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.barrating.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.contextMenu.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.contextMenu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ar.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ar.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ar.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_az.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_az.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_az.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_az.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bg.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bg.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bg.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bn_BD.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bn_BD.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bn_BD.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_bn_BD.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ca.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ca.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ca.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ca.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_cs.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_cs.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_cs.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_cs.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_da.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_da.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_da.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_da.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_de.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_de.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_de.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_de.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_el.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_el.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_el.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_el.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_AR.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_AR.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_AR.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_AR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_PE.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_PE.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_PE.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_es_PE.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_et.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_et.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_et.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_et.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_eu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_eu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_eu.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_eu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fa.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fa.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fa.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_fr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ge.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ge.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ge.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_gl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_gl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_gl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_gl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_he.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_he.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_he.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_he.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hu.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hu.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hu.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hy_AM.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hy_AM.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hy_AM.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_hy_AM.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_id.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_id.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_id.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_id.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_is.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_is.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_is.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_is.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_it.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_it.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_it.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_it.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ja.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ja.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ja.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ja.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ka.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ka.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ka.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ka.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_kk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_kk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_kk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_kk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ko.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ko.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ko.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ko.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lt.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lt.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lt.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lv.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lv.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lv.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_lv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_mk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_mk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_mk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_mk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_my.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_my.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_my.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_my.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_nl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_nl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_nl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_nl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_no.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_no.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_no.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_no.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_BR.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_BR.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_BR.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_BR.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_PT.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_PT.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_PT.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_pt_PT.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ro.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ro.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ro.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ro.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ru.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ru.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ru.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ru.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sd.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sd.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sd.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_si.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_si.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_si.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_si.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr_lat.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr_lat.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr_lat.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sr_lat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sv.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sv.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sv.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_sv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_th.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_th.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_th.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_th.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tj.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tj.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tj.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tj.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tr.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tr.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_tr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_uk.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_uk.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_uk.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_uk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ur.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ur.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ur.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_ur.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_vi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_vi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_vi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_vi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh_TW.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh_TW.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh_TW.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\messages_zh_TW.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_de.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_de.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_de.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_de.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_es_CL.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_es_CL.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_es_CL.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_es_CL.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_fi.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_fi.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_fi.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_fi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_it.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_it.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_it.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_it.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_nl.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_nl.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_nl.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_nl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_pt.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_pt.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\jquery.validate\\localization\\methods_pt.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\jquery.validate\\localization\\methods_pt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\list.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\list.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\lolight-1.3.0.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\lolight-1.3.0.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\masonry.pkgd.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\masonry.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\moment-with-locales.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\moment-with-locales.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\mousetrap.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\mousetrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\movecontent.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\movecontent.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\nouislider.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\plyr.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\plyr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\progressbar.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\progressbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\quill.active.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\quill.active.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\quill.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\quill.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\select2.full.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\select2.full.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\singleimageupload.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\singleimageupload.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\sortable.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\sortable.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\tagify.min.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\tagify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\js\\vendor\\timepicker.js",
+      "PackagePath": "staticwebassets\\manage\\js\\vendor\\timepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\chat.json",
+      "PackagePath": "staticwebassets\\manage\\json\\chat.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\contacts.json",
+      "PackagePath": "staticwebassets\\manage\\json\\contacts.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\events.json",
+      "PackagePath": "staticwebassets\\manage\\json\\events.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\icons.json",
+      "PackagePath": "staticwebassets\\manage\\json\\icons.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\mailbox.json",
+      "PackagePath": "staticwebassets\\manage\\json\\mailbox.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\products.json",
+      "PackagePath": "staticwebassets\\manage\\json\\products.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\search.json",
+      "PackagePath": "staticwebassets\\manage\\json\\search.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\json\\tasks.json",
+      "PackagePath": "staticwebassets\\manage\\json\\tasks.json"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_background.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_background.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_border.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_border.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_button.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_button.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_form.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_form.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_inputgroup.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_inputgroup.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_spinner.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_spinner.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_texts.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_texts.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_toast.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_toast.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_base.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_main.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_main.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_nav.primary.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_nav.primary.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_nav.side.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_nav.side.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_print.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_print.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_settings.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_settings.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\layout\\_typography.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\layout\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_autocomplete.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_autocomplete.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_autosize.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_autosize.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_calendar.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_calendar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_contextmenu.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_contextmenu.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_datatable.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_datatable.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_datepicker.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_datepicker.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_dropzone.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_dropzone.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_editor.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_editor.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_glide.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_glide.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_lightbox.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_lightbox.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_listjs.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_listjs.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_notify.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_notify.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_player.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_player.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_progressbar.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_progressbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_rating.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_rating.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_scrollbar.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_scrollbar.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_select2.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_select2.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_slider.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_slider.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_sortable.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_sortable.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_steps.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_steps.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_tagify.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_tagify.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_timepicker.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_timepicker.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_tour.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_tour.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_validation.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_validation.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\plugins\\_wizard.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\plugins\\_wizard.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\styles.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.blue.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.blue.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.green.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.green.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.lime.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.lime.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.pink.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.pink.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.purple.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.purple.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.red.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.red.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.sky.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.sky.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_dark.teal.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_dark.teal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.blue.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.blue.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.green.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.green.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.lime.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.lime.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.pink.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.pink.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.purple.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.purple.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.red.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.red.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.sky.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.sky.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_light.teal.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_light.teal.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\themes\\_shared.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\themes\\_shared.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\utils\\_mixins.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\utils\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\utils\\_positions.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\utils\\_positions.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\utils\\_shared.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\utils\\_shared.scss"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\manage\\sass\\utils\\_sizes.scss",
+      "PackagePath": "staticwebassets\\manage\\sass\\utils\\_sizes.scss"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restaurant.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

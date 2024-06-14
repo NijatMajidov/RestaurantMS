@@ -34,7 +34,7 @@
     <![endif]-->
     <!-- Document Title
     ============================================= -->
-    <title>Granny | Elegant Restaurant & Cafe Html5 Template</title>
+    <title>Granny | Elegant Restaurant & Cafe</title>
 </head>
 
 <body>
@@ -59,7 +59,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="logo" href="index.html">
+                        <a class="logo" asp-controller="Home" asp-action="index">
                             <img class="logo-light" src="~/assets/images/logo/logo-light.png" alt="granny Logo">
                             <img class="logo-dark" src="~/assets/images/logo/logo-dark.png" alt="granny Logo">
                         </a>
@@ -269,102 +269,21 @@
                     <div class="collapse navbar-collapse pull-right" id="navbar-collapse-1">
                         <ul class="nav navbar-nav nav-pos-right navbar-left">
                             <!-- Home Menu -->
-                            <li class="has-dropdown mega-dropdown active">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">home</a>
-                                <ul class="dropdown-menu mega-dropdown-menu">
-                                    <li>
-                                        <div class="container">
-                                            <div class="row">
-                                                <!-- Column #1 -->
-                                                <div class="col-md-3">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="index.html">home main</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-2.html">homepage 2</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-3.html">homepage 3</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-4.html">homepage 4</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <!-- .col-md-3 end -->
-                                                <!-- Column #2 -->
-                                                <div class="col-md-3">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="homepage-5.html">homepage 5</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-6.html">homepage 6</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-7.html">homepage 7</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-8.html">homepage 8</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <!-- .col-md-2 end -->
-                                                <!-- Column #3 -->
-                                                <div class="col-md-3">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="homepage-9.html">homepage 9</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-10-classic.html">homepage 10 (classic)</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-11-bordered.html">homepage 11 (boardered)</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-12-boxed.html">homepage 12 (boxed)</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <!-- .col-md-3 end -->
-                                                <!-- Column #4 -->
-                                                <div class="col-md-3">
-                                                    <ul>
-                                                        <li>
-                                                            <a href="homepage-13-dark.html">homepage 13 (dark)</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-14-onepage.html">homepage 14 (onepage)</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-15-fullscreen.html">homepage 15 (fullscreen)</a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="homepage-16-shop.html">homepage 16 (shop)</a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <!-- .col-md-2 end -->
-                                            </div>
-                                            <!-- .row end -->
-                                        </div>
-                                        <!-- container end -->
-                                    </li>
-                                </ul>
-                                <!-- .mega-dropdown-menu end -->
+                            
+                            <li>
+                               <a asp-controller="Home" asp-action="index">home</a>
                             </li>
+                                                   
                             <!-- li end -->
                             <!-- About Menu -->
                             <li class="has-dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">About</a>
+                                <a asp-controller="about" asp-action="index"  class="dropdown-toggle menu-item">About</a>
                                 <ul class="dropdown-menu">
                                     <li>
-                                        <a href="page-about.html">our story</a>
+                                        <a asp-controller="about" asp-action="index">our story</a>
                                     </li>
                                     <li>
-                                        <a href="page-chefs.html">our chefs</a>
+                                        <a asp-controller ="about" asp-action="chefs">our chefs</a>
                                     </li>
                                     <li>
                                         <a href="page-contacts.html">contact us</a>
@@ -383,39 +302,11 @@
                             </li>
                             <!-- li end -->
                             <!-- Menu Menu -->
-                            <li class="has-dropdown">
-                                <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-item">Menu</a>
-                                <ul class="dropdown-menu">
+                                    
                                     <li>
-                                        <a href="menu-board.html">menu board</a>
+                                      <a asp-controller="home" asp-action="Menu">Menu</a>
                                     </li>
-                                    <li>
-                                        <a href="menu-classic.html">menu classic</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-gallery.html">menu gallery</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-grid.html">menu grid</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-mixed-grid.html">menu mixed grid</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-mixed.html">menu mixed</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-plates.html">menu plates</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-split.html">menu split</a>
-                                    </li>
-                                    <li>
-                                        <a href="menu-variations.html">menu variations</a>
-                                    </li>
-
-                                </ul>
-                            </li>
+                                
                             <!-- li end -->
                             <!-- Features Menu-->
                             <li class="has-dropdown">
@@ -641,34 +532,7 @@
                                                 <a href="footer-2.html#footer">Footer 2</a>
                                             </li>
                                             <li>
-                                                <a href="footer-3.html#footer">Footer 3</a>
-                                            </li>
-                                            <li>
                                                 <a href="footer-4.html#footer">Footer 4</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-5.html#footer">Footer 5</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-6.html#footer">Footer 6</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-7.html#footer">Footer 7</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-8.html#footer">Footer 8</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-10.html#footer">Footer 10</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-11.html#footer">Footer 11</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-12.html#footer">Footer 12</a>
-                                            </li>
-                                            <li>
-                                                <a href="footer-13.html#footer">Footer 13</a>
                                             </li>
                                         </ul>
                                     </li>
@@ -796,7 +660,7 @@
                             <!-- li end -->
 
                             <li>
-                                <a class="menu-item" href="page-gallery.html">gallery</a>
+                                <a asp-controller="Home" asp-action="gallery">gallery</a>
                             </li>
                             <!-- li end -->
                             <!-- Blog Menu-->
