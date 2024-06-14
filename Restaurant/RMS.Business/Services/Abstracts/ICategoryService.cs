@@ -1,4 +1,4 @@
-﻿using RMS.Business.DTOs;
+﻿using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -14,6 +14,7 @@ namespace RMS.Business.Services.Abstracts
         Task Create(CategoryCreateDTO categoryCreateDTO);
         Task DeleteCategory(int id);
         Task SoftDeleteCategory(int id);
+        Task<CategoryUpdateDTO> GetCategoryForUpdate(int id);
         Task<CategoryGetDTO> GetCategory(Func<Category, bool>? func = null);
         Task<List<CategoryGetDTO>> GetAllCategories(
             Expression<Func<Category, bool>>? func = null,

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using RMS.Business.DTOs;
+using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Business.Services.Abstracts;
 using RMS.Core.Models;
 using RMS.Data.Repositories.Abstractions;
@@ -65,11 +65,18 @@ namespace RMS.Business.Services.Concretes
         public async Task SoftDeleteCategory(int id)
         {
             var entity = await _categoryRepository.GetAsync(x => x.Id == id);
-            if (entity == null) throw new FileNotFoundException();
+            if (entity == null) throw new FileNotFoundException("bosh olmaz");
             _categoryRepository.SoftDelete(entity);
             await _categoryRepository.CommitAsync();
         }
+        public async Task<CategoryUpdateDTO> GetCategoryForUpdate(int id)
+        {
+            var entity = await _categoryRepository.GetAsync(x => x.Id == id);
+            if (entity == null) throw new FileNotFoundException();
 
+            var categoryUpdateDTO = _mapper.Map<CategoryUpdateDTO>(entity);
+            return categoryUpdateDTO;
+        }
         public async Task Update(int id, CategoryUpdateDTO categoryUpdateDTO)
         {
             Category oldCategory = _categoryRepository.Get(x=>x.Id == id);

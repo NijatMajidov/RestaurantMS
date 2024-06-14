@@ -1,0 +1,38 @@
+﻿@model CategoryUpdateDTO
+<main>
+    <div class="container">
+
+        <div class="row">
+            <div class="col">
+                <!-- Title Start -->
+                <section class="scroll-section" id="title">
+                    <div class="page-title-container">
+                        <h1 class="mb-0 pb-0 display-4">Tables</h1>
+                        <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                            <ul class="breadcrumb pt-0">
+                                <li class="breadcrumb-item"><a asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+                                <li class="breadcrumb-item"><a asp-controller="Category" asp-action="Index">Category</a></li>
+                                <li class="breadcrumb-item"><a asp-controller="Category" asp-action="Create">Create</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </section>
+
+                <div class="container justify-content-center">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="mb-2">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" placeholder="Create new Category">
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div asp-validation-summary="ModelOnly">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

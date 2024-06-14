@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using RMS.Business.DTOs;
+using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Core.Models;
 using System;
 using System.Collections.Generic;
@@ -15,7 +15,7 @@ namespace RMS.Business.Mapping
         {
             CreateMap<CategoryCreateDTO, Category>().ReverseMap();
             CreateMap<Category, CategoryGetDTO>().ReverseMap();
-
+            CreateMap<Category, CategoryUpdateDTO>().ReverseMap();
         }
     }
 }
