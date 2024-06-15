@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using RMS.Core.Models;
+using RMS.Core.Entities;
+using RMS.Core.Entities.Employee;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,16 @@ namespace RMS.Data.DAL
         {
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
             base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<AppUser>().HasDiscriminator<string>("UserRole").
+                HasValue<AppUser>("Member")
+                .HasValue<Admin>("Admin")
+                .HasValue<Customer>("Customer")
+                .HasValue<Waiter>("Waiter");
+
         }
-        public DbSet<Category> Categories { get; set; }
+        public DbSet<Category> Categories { get; set;}
+        public DbSet<Table> Tables { get; set;}
+        
     }
 }

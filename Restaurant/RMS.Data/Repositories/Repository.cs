@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RMS.Core.Models;
+using RMS.Core.Entities.Common;
 using RMS.Data.DAL;
 using System;
 using System.Collections.Generic;

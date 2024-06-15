@@ -4,7 +4,6 @@ using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Business.Exceptions;
 using RMS.Business.Exceptions.CategoryEx;
 using RMS.Business.Services.Abstracts;
-using System.Text.RegularExpressions;
 
 namespace Restaurant.Areas.Admin.Controllers
 {
@@ -20,7 +19,7 @@ namespace Restaurant.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            var categories = await _categoryService.GetAllCategories(x=>x.IsDeleted==false,x=>x.Name);
+            var categories = await _categoryService.GetAllCategories(x=>x.IsDeleted==false);
             return View(categories);
         }
         public IActionResult Create()
@@ -39,6 +38,16 @@ namespace Restaurant.Areas.Admin.Controllers
                 await _categoryService.Create(categoryCreateDTO);
             }
             catch(EntityNullReferenceException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (CategoryNameSizeException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (CategoryNameFormatException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
@@ -63,7 +72,7 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 category = await _categoryService.GetCategoryForUpdate(id);
             }
-            catch (CategoryNotFound ex)
+            catch (EntityNotFoundException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View("Error");
@@ -98,7 +107,17 @@ namespace Restaurant.Areas.Admin.Controllers
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
             }
-            catch(CategoryNotFound ex)
+            catch (CategoryNameSizeException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (CategoryNameFormatException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (EntityNotFoundException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View("Error");
@@ -119,18 +138,14 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 await _categoryService.SoftDeleteCategory(id);
             }
-            catch (EntityNullReferenceException ex)
-            {
-                ModelState.AddModelError("",ex.Message);
-                return View("Error");
-            }
-            catch (CategoryNotFound ex)
+            catch (EntityNotFoundException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View("Error");
             }
             catch (Exception ex)
             {
+                ModelState.AddModelError("", ex.Message);
                 return View("Error");
             }
             return RedirectToAction(nameof(Index));

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RMS.Core.Entities.Common;
 
-namespace RMS.Core.Models
+namespace RMS.Core.Entities
 {
     public class Category : BaseEntity
     {

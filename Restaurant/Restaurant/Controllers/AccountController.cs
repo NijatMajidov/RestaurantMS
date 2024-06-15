@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RMS.Business.DTOs.Account;
 using RMS.Business.Helpers.Account;
-using RMS.Core.Models;
+using RMS.Core.Entities;
 
 namespace Restaurant.Controllers
 {

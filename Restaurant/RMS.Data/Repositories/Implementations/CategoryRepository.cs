@@ -1,4 +1,4 @@
-﻿using RMS.Core.Models;
+﻿using RMS.Core.Entities;
 using RMS.Data.DAL;
 using RMS.Data.Repositories.Abstractions;
 using System;

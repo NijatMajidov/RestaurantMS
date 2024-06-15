@@ -4,7 +4,7 @@ using RMS.Business;
 using RMS.Business.Mapping;
 using RMS.Business.Services.Abstracts;
 using RMS.Business.Services.Concretes;
-using RMS.Core.Models;
+using RMS.Core.Entities;
 using RMS.Data.DAL;
 using RMS.Data.Repositories.Abstractions;
 using RMS.Data.Repositories.Implementations;

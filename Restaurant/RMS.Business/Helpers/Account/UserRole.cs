@@ -11,5 +11,6 @@ namespace RMS.Business.Helpers.Account
         Admin,
         Moderator,
         Member,
+        Waiter,
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RMS.Core.Models
+namespace RMS.Core.Entities.Common
 {
     public class BaseEntity
     {

@@ -16,10 +16,12 @@ namespace RMS.Business
     {
         public static void AddServices(this IServiceCollection services, IConfiguration configuration)
         {
+            services.AddScoped<ITableService, TableService>();
             services.AddScoped<ICategoryService, CategoryService>();
+
+            services.AddScoped<ITableRepository, TableRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
 
-            
         }
     }
 }

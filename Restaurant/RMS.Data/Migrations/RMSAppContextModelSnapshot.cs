@@ -155,7 +155,7 @@ namespace RMS.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("RMS.Core.Models.AppUser", b =>
+            modelBuilder.Entity("RMS.Core.Entities.AppUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -221,6 +221,11 @@ namespace RMS.Data.Migrations
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
 
+                    b.Property<string>("UserRole")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("NormalizedEmail")
@@ -232,9 +237,13 @@ namespace RMS.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator<string>("UserRole").HasValue("Member");
+
+                    b.UseTphMappingStrategy();
                 });
 
-            modelBuilder.Entity("RMS.Core.Models.Category", b =>
+            modelBuilder.Entity("RMS.Core.Entities.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -245,7 +254,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 28, 15, 29, 54, 515, DateTimeKind.Utc).AddTicks(6404));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 21, 53, 4, 694, DateTimeKind.Utc).AddTicks(6069));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -265,6 +274,66 @@ namespace RMS.Data.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("RMS.Core.Entities.Table", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Capacity")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(2);
+
+                    b.Property<DateTime>("CreatedDate")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("datetime2")
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 21, 53, 4, 695, DateTimeKind.Utc).AddTicks(3563));
+
+                    b.Property<DateTime?>("DeletedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tables");
+                });
+
+            modelBuilder.Entity("RMS.Core.Entities.Employee.Admin", b =>
+                {
+                    b.HasBaseType("RMS.Core.Entities.AppUser");
+
+                    b.HasDiscriminator().HasValue("Admin");
+                });
+
+            modelBuilder.Entity("RMS.Core.Entities.Employee.Customer", b =>
+                {
+                    b.HasBaseType("RMS.Core.Entities.AppUser");
+
+                    b.HasDiscriminator().HasValue("Customer");
+                });
+
+            modelBuilder.Entity("RMS.Core.Entities.Employee.Waiter", b =>
+                {
+                    b.HasBaseType("RMS.Core.Entities.AppUser");
+
+                    b.HasDiscriminator().HasValue("Waiter");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -276,7 +345,7 @@ namespace RMS.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("RMS.Core.Models.AppUser", null)
+                    b.HasOne("RMS.Core.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -285,7 +354,7 @@ namespace RMS.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("RMS.Core.Models.AppUser", null)
+                    b.HasOne("RMS.Core.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -300,7 +369,7 @@ namespace RMS.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("RMS.Core.Models.AppUser", null)
+                    b.HasOne("RMS.Core.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -309,7 +378,7 @@ namespace RMS.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("RMS.Core.Models.AppUser", null)
+                    b.HasOne("RMS.Core.Entities.AppUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
