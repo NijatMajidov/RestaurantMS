@@ -1,0 +1,414 @@
+﻿@{
+    Layout = "";
+    @model LoginDto
+
+}
+<!DOCTYPE html>
+<html lang="en" data-footer="true" data-scrollspy="true">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Acorn Admin Template | Form Layouts</title>
+    <meta name="description" content="Examples and usage guidelines for form control styles and layout options." />
+    <!-- Favicon Tags Start -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="~/manage/img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/manage/img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/manage/img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/manage/img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="~/manage/img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="~/manage/img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="~/manage/img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="~/manage/img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="~/manage/img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="~/manage/img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="~/manage/img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="~/manage/img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="~/manage/img/favicon/mstile-310x310.png" />
+    <!-- Favicon Tags End -->
+    <!-- Font Tags Start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="font/CS-Interface/style.css" />
+    <!-- Font Tags End -->
+    <!-- Vendor Styles Start -->
+    <link rel="stylesheet" href="~/manage/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/manage/css/vendor/OverlayScrollbars.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/select2.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/select2-bootstrap4.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/bootstrap-datepicker3.standalone.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/tagify.css" />
+
+    <!-- Vendor Styles End -->
+    <!-- Template Base Styles Start -->
+    <link rel="stylesheet" href="~/manage/css/styles.css" />
+    <!-- Template Base Styles End -->
+
+    <link rel="stylesheet" href="~/manage/css/main.css" />
+    <script src="~/manage/js/base/loader.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <main style="padding: 32px 40px !important;">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <!-- Title Start -->
+                        <section class="scroll-section" id="title">
+                            <div class="page-title-container">
+                                <h1 class="mb-0 pb-0 display-4">Layouts</h1>
+                                <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                                    <ul class="breadcrumb pt-0">
+                                        <li class="breadcrumb-item"><a href="Dashboards.Default.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="Interface.html">Interface</a></li>
+                                        <li class="breadcrumb-item"><a href="Interface.Forms.html">Forms</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </section>
+                        <!-- Title End -->
+
+                        <div>
+                            <div class="card mb-5">
+                                <div class="card-body">
+                                    <p class="mb-0">Examples and usage guidelines for form control styles and layout options.</p>
+                                </div>
+                            </div>
+                            <section class="scroll-section" id="formRow">
+                                <h2 class="small-title">Form Row</h2>
+                                <div class="card mb-5">
+                                    <div class="card-body">
+                                        <form method="post" class="row g-3">
+                                            
+                                            <div class="col-md-6">
+                                                <label asp-for="EmailOrUserName" class="form-label">Email Address Or UserName</label>
+                                                <input asp-for="EmailOrUserName" class="form-control" id="inputEmail4" placeholder="email@gmail.com">
+                                                <span asp-validation-for="EmailOrUserName" style="color:red"></span>
+                                            </div>
+                                            
+                                            <div class="col-md-6">
+                                                <label asp-for="Password" class="form-label">Password</label>
+                                                <input asp-for="Password" class="form-control"
+                                                       id="inputPassword4" placeholder="Password">
+                                                <span asp-validation-for="Password" style="color:red"></span>
+                                            </div>
+
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" asp-for="IsRemember" id="inlineFormCheck">
+                                                    <label class="form-check-label" asp-for="IsRemember">Remember me</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div asp-validation-summary="ModelOnly"></div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn btn-primary">Sign in</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                        <!-- Content End -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Layout Footer Start -->
+        <footer>
+            <div class="footer-content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Colored Strategies 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Layout Footer End -->
+    </div>
+    <!-- Theme Settings Modal Start -->
+    <div class="modal fade modal-right scroll-out-negative"
+         id="settings"
+         data-bs-backdrop="true"
+         tabindex="-1"
+         role="dialog"
+         aria-labelledby="settings"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable full" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Theme Settings</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="scroll-track-visible">
+                        <div class="mb-5" id="color">
+                            <label class="mb-3 d-inline-block form-label">Color</label>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-blue" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="blue-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT BLUE</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-blue" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="blue-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK BLUE</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-teal" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="teal-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT TEAL</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-teal" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="teal-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK TEAL</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-sky" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="sky-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT SKY</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-sky" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="sky-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK SKY</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-red" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="red-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT RED</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-red" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="red-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK RED</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-green" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="green-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT GREEN</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-green" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="green-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK GREEN</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-lime" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="lime-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT LIME</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-lime" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="lime-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK LIME</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-pink" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="pink-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT PINK</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-pink" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="pink-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK PINK</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap mb-3">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="light-purple" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="purple-light"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">LIGHT PURPLE</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="dark-purple" data-parent="color">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow color">
+                                        <div class="purple-dark"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">DARK PURPLE</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mb-5" id="layout">
+                            <label class="mb-3 d-inline-block form-label">Layout</label>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap">
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="fluid" data-parent="layout">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow">
+                                        <div class="figure figure-primary top"></div>
+                                        <div class="figure figure-secondary bottom"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">FLUID</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-50 option col" data-value="boxed" data-parent="layout">
+                                    <div class="card rounded-md p-3 mb-1 no-shadow">
+                                        <div class="figure figure-primary top"></div>
+                                        <div class="figure figure-secondary bottom small"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">BOXED</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="mb-5" id="radius">
+                            <label class="mb-3 d-inline-block form-label">Radius</label>
+                            <div class="row d-flex g-3 justify-content-between flex-wrap">
+                                <a href="#" class="flex-grow-1 w-33 option col" data-value="rounded" data-parent="radius">
+                                    <div class="card rounded-md radius-rounded p-3 mb-1 no-shadow">
+                                        <div class="figure figure-primary top"></div>
+                                        <div class="figure figure-secondary bottom"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">ROUNDED</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-33 option col" data-value="standard" data-parent="radius">
+                                    <div class="card rounded-md radius-regular p-3 mb-1 no-shadow">
+                                        <div class="figure figure-primary top"></div>
+                                        <div class="figure figure-secondary bottom"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">STANDARD</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="flex-grow-1 w-33 option col" data-value="flat" data-parent="radius">
+                                    <div class="card rounded-md radius-flat p-3 mb-1 no-shadow">
+                                        <div class="figure figure-primary top"></div>
+                                        <div class="figure figure-secondary bottom"></div>
+                                    </div>
+                                    <div class="text-muted text-part">
+                                        <span class="text-extra-small align-middle">FLAT</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Theme Settings Modal End -->
+    <!-- Theme Settings -->
+    <div class="settings-buttons-container">
+        <button type="button" class="btn settings-button btn-primary p-0" data-bs-toggle="modal" data-bs-target="#settings" id="settingsButton">
+            <span class="d-inline-block no-delay" data-bs-delay="0" data-bs-offset="0,3" data-bs-toggle="tooltip" data-bs-placement="left" title="Settings">
+                <i data-acorn-icon="paint-roller" class="position-relative"></i>
+            </span>
+        </button>
+    </div>
+    <!-- Theme Settings -->
+    <!-- Vendor Scripts Start -->
+    <script src="~/manage/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="~/manage/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="~/manage/js/vendor/OverlayScrollbars.min.js"></script>
+    <script src="~/manage/js/vendor/autoComplete.min.js"></script>
+    <script src="~/manage/js/vendor/clamp.min.js"></script>
+
+    <script src="~/manage/icon/acorn-icons.js"></script>
+    <script src="~/manage/icon/acorn-icons-interface.js"></script>
+
+    <script src="~/manage/js/cs/scrollspy.js"></script>
+
+    <script src="~/manage/js/vendor/select2.full.min.js"></script>
+
+    <script src="~/manage/js/vendor/datepicker/bootstrap-datepicker.min.js"></script>
+
+    <script src="~/manage/js/vendor/tagify.min.js"></script>
+
+    <!-- Vendor Scripts End -->
+    <!-- Template Base Scripts Start -->
+    <script src="~/manage/js/base/helpers.js"></script>
+    <script src="~/manage/js/base/globals.js"></script>
+    <script src="~/manage/js/base/nav.js"></script>
+    <script src="~/manage/js/base/search.js"></script>
+    <script src="~/manage/js/base/settings.js"></script>
+    <!-- Template Base Scripts End -->
+    <!-- Page Specific Scripts Start -->
+
+    <script src="~/manage/js/forms/layouts.js"></script>
+
+    <script src="~/manage/js/common.js"></script>
+    <script src="~/manage/js/scripts.js"></script>
+    <!-- Page Specific Scripts End -->
+</body>
+</html>

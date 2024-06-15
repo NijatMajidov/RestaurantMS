@@ -163,7 +163,7 @@ namespace RMS.Data.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<DateOnly>("Born")
+                    b.Property<DateOnly?>("Born")
                         .HasColumnType("date");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -245,7 +245,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 27, 18, 12, 31, 975, DateTimeKind.Utc).AddTicks(1136));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 12, 4, 41, 285, DateTimeKind.Utc).AddTicks(9027));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

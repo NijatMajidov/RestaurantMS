@@ -11,7 +11,7 @@ namespace RMS.Core.Models
     {
         public string Name { get; set; }
         public string Surname { get; set; }
-        public DateOnly Born { get; set; }
+        public DateOnly? Born { get; set; }
         public bool IsDeleted { get; set; }
     }
 }

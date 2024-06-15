@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\category\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Category\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T16:47:41.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEwAAAAAAAAA",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAPcEAAAAAAAAAAAAAP0EAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T16:47:28.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Category\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAA+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-27T16:05:19.108Z",
+              "WhenOpened": "2024-06-28T10:05:39.22Z",
               "EditorCaption": ""
             },
             {
