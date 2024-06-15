@@ -245,7 +245,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 28, 12, 4, 41, 285, DateTimeKind.Utc).AddTicks(9027));
+                        .HasDefaultValue(new DateTime(2024, 6, 28, 15, 29, 54, 515, DateTimeKind.Utc).AddTicks(6404));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

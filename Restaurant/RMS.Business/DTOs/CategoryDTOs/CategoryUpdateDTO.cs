@@ -17,8 +17,9 @@ namespace RMS.Business.DTOs.CategoryDTOs
         public CategoryUpdateDTOValidator()
         {
             RuleFor(x => x.Name)
-                .MaximumLength(50).WithMessage("Name uzunlugu maximum 50 ola biler!")
-                .NotEmpty().WithMessage("Name bosh ola bilmez!!");
+                .MinimumLength(3).WithMessage("Uzunluq minimum 3 olmalidir")
+                .MaximumLength(50).WithMessage("Uzunlugu maximum 50 ola biler!")
+                .NotEmpty().WithMessage("Ad bos ola bilmez!!");
         }
     }
 }

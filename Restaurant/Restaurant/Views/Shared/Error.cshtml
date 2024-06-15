@@ -1,3 +1,23 @@
-﻿
-<h1 class="text-danger">Error.</h1>
-<h2 class="text-danger">An error occurred while processing your request.</h2>
+﻿﻿@{
+    ViewData["Title"] = "Error";
+}
+<div class="container-fluid">
+    <main>
+        <div class="container">
+            <div class="row">
+                <!-- 404 Error Text -->
+                <div class="text-center">
+                    <div class="alert alert-danger">404
+                        <p>Page Not Found</p>
+                    </div>
+                    
+                    <p>It looks like you found a glitch in the matrix...</p>
+                    <a asp-action="index" asp-controller="Dashboard">&larr; Back to Dashboard</a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    
+
+</div>

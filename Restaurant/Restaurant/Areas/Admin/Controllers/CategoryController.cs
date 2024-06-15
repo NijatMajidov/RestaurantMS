@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using RMS.Business.DTOs.CategoryDTOs;
+using RMS.Business.Exceptions;
+using RMS.Business.Exceptions.CategoryEx;
 using RMS.Business.Services.Abstracts;
 using System.Text.RegularExpressions;
 
 namespace Restaurant.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class CategoryController : Controller
     {
         readonly ICategoryService _categoryService;
@@ -30,15 +34,44 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 return View();
             }
-            await _categoryService.Create(categoryCreateDTO);
+            try
+            {
+                await _categoryService.Create(categoryCreateDTO);
+            }
+            catch(EntityNullReferenceException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (DuplicateException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch(Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View();
+            }
+
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Update(int id)
         {
-            var category = await _categoryService.GetCategoryForUpdate(id);
-            if (category == null)
+            CategoryUpdateDTO category;
+            try
             {
+                category = await _categoryService.GetCategoryForUpdate(id);
+            }
+            catch (CategoryNotFound ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View("Error");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+                return View();
             }
 
             return View(category);
@@ -55,25 +88,45 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 await _categoryService.Update(categoryUpdateDTO.Id,categoryUpdateDTO);
             }
+            catch (EntityNullReferenceException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (DuplicateException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch(CategoryNotFound ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View("Error");
+            }
             catch (Exception ex)
             {
-                return View("Error");
+                ModelState.AddModelError("", ex.Message);
+                return View();
             }
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Delete(int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return View();
-            }
+            var exsist = _categoryService.GetCategory(x => x.Id == id);
+            if (exsist == null) return View("Error");
+            
             try
             {
                 await _categoryService.SoftDeleteCategory(id);
             }
-            catch (FileNotFoundException ex)
+            catch (EntityNullReferenceException ex)
             {
                 ModelState.AddModelError("",ex.Message);
+                return View("Error");
+            }
+            catch (CategoryNotFound ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View("Error");
             }
             catch (Exception ex)
