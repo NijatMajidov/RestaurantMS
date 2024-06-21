@@ -1,14 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Hosting;
-using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Business.DTOs.TableDTOs;
 using RMS.Business.Exceptions;
-using RMS.Business.Exceptions.CategoryEx;
 using RMS.Business.Exceptions.TableEx;
 using RMS.Business.Services.Abstracts;
 using RMS.Core.Entities;
 using RMS.Data.Repositories.Abstractions;
-using RMS.Data.Repositories.Implementations;
 using System.Linq.Expressions;
 using System.Text.RegularExpressions;
 
@@ -47,8 +44,8 @@ namespace RMS.Business.Services.Concretes
                 throw new NameSizeException("Name", "Table Name uzunlugu 3 char olmalidir: A12");
             if (!Regex.IsMatch(CreateDTO.Name, @"^[A-Z]\d{2}$"))
                 throw new NameFormatException("Name", "Table Name must start with one uppercase letter followed by two digits");
-            var existingCategory = await _tableRepository.GetAsync(x => x.Name == CreateDTO.Name);
-            if (existingCategory != null)
+            var existingTable = await _tableRepository.GetAsync(x => x.Name == CreateDTO.Name);
+            if (existingTable != null)
             {
                 throw new DuplicateException("Name", "Eyni adli Table ola bilmez");
             }
@@ -69,39 +66,101 @@ namespace RMS.Business.Services.Concretes
         {
             var table = await _tableRepository.GetAsync(x=>x.Id==id);
             if (table == null)
-                throw new EntityNotFoundException("Table", "Table not found");
-
+                throw new EntityNotFoundException("", "Table not found");
+            string oldpath = _webHostEnvironment.WebRootPath + @"\uploads\Tables\" + table.ImageUrl;
+            if (!File.Exists(oldpath)) throw new Exceptions.FileNotFoundException("ImageFile", "Image File not found!");
+            {
+                File.Delete(oldpath);
+            }
             _tableRepository.Delete(table);
             await _tableRepository.CommitAsync();
         }
 
-        public Task<List<TableGetDto>> GetAllTables(
-            Expression<Func<Category, bool>>? 
-            func = null, Expression<Func<Category, object>>? 
+        public async Task<List<TableGetDto>> GetAllTables(
+            Expression<Func<Table, bool>>? 
+            func = null, Expression<Func<Table, object>>? 
             orderBy = null, bool isOrderByDesting = false, 
             params string[]? includes)
         {
-            throw new NotImplementedException();
+            var queryable = await _tableRepository.GetAllAsync(func, orderBy, isOrderByDesting, includes);
+            return _mapper.Map<List<TableGetDto>>(queryable);
         }
 
-        public Task<TableGetDto> GetTable(Func<Table, bool>? func = null)
+        public async Task<TableGetDto> GetTable(Func<Table, bool>? func = null)
         {
-            throw new NotImplementedException();
+            var entity = _tableRepository.Get(func);
+            if (entity == null) throw new EntityNotFoundException("", "Table not Found");
+            
+            return _mapper.Map<TableGetDto>(entity);
         }
 
-        public Task<TableUpdateDto> GetTableForUpdate(int id)
+        public async Task<TableUpdateDto> GetTableForUpdate(int id)
         {
-            throw new NotImplementedException();
+            var entity = await _tableRepository.GetAsync(x => x.Id == id);
+            if (entity == null) throw new EntityNotFoundException("", "Table not found");
+
+            return _mapper.Map<TableUpdateDto>(entity);
         }
 
-        public Task SoftDeleteTable(int id)
+        public async Task SoftDeleteTable(int id)
         {
-            throw new NotImplementedException();
+            var entity = await _tableRepository.GetAsync(x => x.Id == id);
+            if (entity == null) throw new EntityNotFoundException("", "Table not found");
+            _tableRepository.SoftDelete(entity);
+            await _tableRepository.CommitAsync();
         }
 
-        public Task Update(int id, TableUpdateDto UpdateDTO)
+        public async Task Update(int id, TableUpdateDto UpdateDTO)
         {
-            throw new NotImplementedException();
+            var oldTable = await _tableRepository.GetAsync(x => x.Id == id);
+
+            if (oldTable == null)
+                throw new EntityNotFoundException("", "Bele bir Table yoxdur");
+
+            if (UpdateDTO == null)
+                throw new EntityNullReferenceException("", "Table null reference");
+
+            if (UpdateDTO.Capacity < 1 || UpdateDTO.Capacity > 16)
+                throw new TableCapacityException("Capacity", "Table Capacity minimum 3 maximum 16");
+
+            if (UpdateDTO.Name.Length != 3)
+                throw new NameSizeException("Name", "Table Name uzunlugu 3 char olmalidir: A12");
+
+            if (!Regex.IsMatch(UpdateDTO.Name, @"^[A-Z]\d{2}$"))
+                throw new NameFormatException("Name", "Table Name must start with one uppercase letter followed by two digits");
+
+            var existingTable = await _tableRepository.GetAsync(x => x.Name == UpdateDTO.Name && x.Id!=id);
+            if (existingTable != null)
+                throw new DuplicateException("Name", "Eyni adli Table ola bilmez");
+
+
+            if (UpdateDTO.ImageFile != null)
+            { 
+                if (!UpdateDTO.ImageFile.ContentType.Contains("image/"))
+                  throw new FileContentypeException("ImageFile", "Image file contenttype exception");
+                if (UpdateDTO.ImageFile.Length > 2097152)
+                 throw new FileSizeException("ImageFile", "Image file Size error!!");
+
+                string oldpath = _webHostEnvironment.WebRootPath + @"\uploads\Tables\" + oldTable.ImageUrl;
+                  if (!File.Exists(oldpath)) throw new Exceptions.FileNotFoundException("ImageFile", "Image File not found!");
+                  {
+                         File.Delete(oldpath);
+                  }
+
+                string filename = Guid.NewGuid().ToString() + Path.GetExtension(UpdateDTO.ImageFile.FileName);
+                string path = _webHostEnvironment.WebRootPath + @"\uploads\Tables\" + filename;
+                using (FileStream stream = new FileStream(path, FileMode.Create))
+                {
+                    UpdateDTO.ImageFile.CopyTo(stream);
+                }
+
+                oldTable.ImageUrl = filename;
+            }
+            
+            oldTable.Name = UpdateDTO.Name;
+            oldTable.Capacity = UpdateDTO.Capacity;
+            await _tableRepository.CommitAsync();
+
         }
     }
 }

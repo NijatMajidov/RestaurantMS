@@ -2,7 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Business.Exceptions;
-using RMS.Business.Exceptions.CategoryEx;
 using RMS.Business.Services.Abstracts;
 
 namespace Restaurant.Areas.Admin.Controllers
@@ -42,12 +41,12 @@ namespace Restaurant.Areas.Admin.Controllers
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
             }
-            catch (CategoryNameSizeException ex)
+            catch (NameSizeException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
             }
-            catch (CategoryNameFormatException ex)
+            catch (NameFormatException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
@@ -107,12 +106,12 @@ namespace Restaurant.Areas.Admin.Controllers
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
             }
-            catch (CategoryNameSizeException ex)
+            catch (NameSizeException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
             }
-            catch (CategoryNameFormatException ex)
+            catch (NameFormatException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();

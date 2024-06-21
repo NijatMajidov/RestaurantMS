@@ -21,6 +21,7 @@
   <ItemGroup>
     <Folder Include="wwwroot\assets\icons\" />
     <Folder Include="wwwroot\assets\images\sliders\thumb\" />
+    <Folder Include="wwwroot\uploads\Sliders\" />
     <Folder Include="wwwroot\uploads\Tables\" />
   </ItemGroup>
 

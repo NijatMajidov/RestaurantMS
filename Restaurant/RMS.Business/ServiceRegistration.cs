@@ -4,11 +4,6 @@ using RMS.Business.Services.Abstracts;
 using RMS.Business.Services.Concretes;
 using RMS.Data.Repositories.Abstractions;
 using RMS.Data.Repositories.Implementations;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RMS.Business
 {
@@ -17,9 +12,11 @@ namespace RMS.Business
         public static void AddServices(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<ITableService, TableService>();
+            services.AddScoped<ISlideService, SlideService>();
             services.AddScoped<ICategoryService, CategoryService>();
 
             services.AddScoped<ITableRepository, TableRepository>();
+            services.AddScoped<ISlideRepository, SlideRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
 
         }

@@ -13,8 +13,8 @@ namespace RMS.Business.Services.Abstracts
         Task Update(int id, TableUpdateDto UpdateDTO);
         Task<TableGetDto> GetTable(Func<Table, bool>? func = null);
         Task<List<TableGetDto>> GetAllTables(
-            Expression<Func<Category, bool>>? func = null,
-            Expression<Func<Category, object>>? orderBy = null,
+            Expression<Func<Table, bool>>? func = null,
+            Expression<Func<Table, object>>? orderBy = null,
             bool isOrderByDesting = false,
             params string[]? includes);
         

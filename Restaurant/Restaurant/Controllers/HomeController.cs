@@ -1,13 +1,19 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using RMS.Business.Services.Abstracts;
 
 namespace Restaurant.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index()
+        readonly ISlideService _service;
+        public HomeController(ISlideService slideService)
         {
-            return View();
+            _service = slideService;
+        }
+        public async Task<IActionResult> Index()
+        {
+            var Slide = await _service.GetAllSlides();
+            return View(Slide);
         }
     }
 }

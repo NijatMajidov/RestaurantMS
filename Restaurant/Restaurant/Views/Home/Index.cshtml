@@ -1,193 +1,128 @@
-﻿
+﻿@model List<SlideGetDto>
 <!-- Hero Section
 ====================================== -->
 <section id="slider" class="slider slide-overlay-black">
 	<!-- START REVOLUTION SLIDER 5.0 -->
 	<div class="rev_slider_wrapper">
 		<div id="slider1" class="rev_slider"  data-version="5.0">
-			<ul>
-				<!-- slide 1 -->
-				<li data-transition="zoomin"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="~/assets/images/sliders/slide-bg/11.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-130" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Granny Offers You</div>
-					</div>
-					
-				
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--headline">The Best Tasting Experience!</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="20" 
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--bio text-center">Granny is a restaurant, bar and coffee roastery located on Egypt. We have<br> awesome recipes and the most talented chefs in town! </div>
-					</div>
-					
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-                        data-frames='[{"delay":2250,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-						data-basealign="slide" 
-						data-responsive_offset="on" 
-						data-responsive="off">
-						<div class="slide-action">
-							<a class="btn btn--white btn--bordered btn--lg" href="#">Get A Reservation Now</a>
-						</div>
-					</div>
-				</li>
-				
-				<!-- slide 2 -->
-				<li data-transition="slideoverdown"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="~/assets/images/sliders/slide-bg/3.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-130" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Hello, We Are Granny</div>
-					</div>
-					
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--headline">We Serve Quality Food</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="20" 
-						data-width="none"
-						data-height="none"
-						data-transform_idle="o:1;"
-                        data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' 
-						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--bio text-center">Granny is a restaurant, bar and coffee roastery located on Egypt. We have<br>awesome recipes and the most talented chefs in town! </div>
-					</div>
-					
-					<!-- LAYER NR. 4 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-						data-whitespace="nowrap"
-                        data-frames='[{"delay":2250,"speed":1000,"frame":"0","from":"x:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"x:50px;opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
-						data-basealign="slide" 
-						data-responsive_offset="on" 
-						data-responsive="off">
-						<div class="slide-action">
-							<a class="btn btn--primary" href="#">View Menu</a>
-						</div>
-					</div>
-				</li>
-				
-				<!-- slide 3 -->
-				<li data-transition="incube-horizontal"
-					data-slotamount="default" 
-					data-easein="Power4.easeInOut" 
-					data-easeout="Power4.easeInOut" 
-					data-masterspeed="2000">
-					<!-- MAIN IMAGE -->
-					<img src="~/assets/images/sliders/slide-bg/12.jpg" alt="Slide Background Image"  width="1920" height="1280">
-					<!-- LAYER NR. 1 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="-65" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--subheadline">Made With Love</div>
-					</div>
-					
-					<!-- LAYER NR. 2 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="0" 
-						data-whitespace="nowrap"
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on"
-						>
-						<div class="slide--headline">Hot and Ready to Serve</div>
-					</div>
-					
-					<!-- LAYER NR. 3 -->
-					<div class="tp-caption" 
-						data-x="center" data-hoffset="0" 
-						data-y="center" data-voffset="100" 
-						data-width="none"
-						data-height="none"
-                        data-frames='[{"delay":2000,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'						data-splitin="none" 
-						data-splitout="none" 
-						data-responsive_offset="on">
-						<div class="slide--bio text-center">Granny is a restaurant, bar and coffee roastery located on Egypt. We have<br>awesome recipes and the most talented chefs in town! </div>
-					</div>
-				</li>
+            <ul>
+                <li data-transition="zoomin"
+                    data-slotamount="default"
+                    data-easein="Power4.easeInOut"
+                    data-easeout="Power4.easeInOut"
+                    data-masterspeed="2000">
+                    <!-- MAIN IMAGE -->
+                    <img src="~/assets/images/sliders/slide-bg/11.jpg" alt="Slide Background Image" width="1920" height="1280">
+                    <!-- LAYER NR. 1 -->
+                    <div class="tp-caption"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-130"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-height="none"
+                         data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none"
+                         data-splitout="none"
+                         data-responsive_offset="on">
+                        <div class="slide--subheadline">Odyssey Offers You</div>
+                    </div>
 
+
+                    <!-- LAYER NR. 2 -->
+                    <div class="tp-caption"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="-65"
+                         data-whitespace="nowrap"
+                         data-width="none"
+                         data-height="none"
+                         data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-splitin="none"
+                         data-splitout="none"
+                         data-responsive_offset="on">
+                        <div class="slide--headline">The Best Tasting Experience!</div>
+                    </div>
+
+                    <!-- LAYER NR. 3 -->
+                    <div class="tp-caption"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="20"
+                         data-width="none"
+                         data-height="none"
+                         data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                         data-splitin="none"
+                         data-splitout="none"
+                         data-responsive_offset="on">
+                        <div class="slide--bio text-center">Odyssey is a restaurant, bar and coffee roastery located on Egypt. We have<br> awesome recipes and the most talented chefs in town! </div>
+                    </div>
+
+                    <!-- LAYER NR. 4 -->
+                    <div class="tp-caption"
+                         data-x="center" data-hoffset="0"
+                         data-y="center" data-voffset="100"
+                         data-width="none"
+                         data-height="none"
+                         data-whitespace="nowrap"
+                         data-frames='[{"delay":2250,"speed":1000,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none"
+                         data-splitout="none"
+                         data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+                         data-basealign="slide"
+                         data-responsive_offset="on"
+                         data-responsive="off">
+                        <div class="slide-action">
+                            <a class="btn btn--white btn--bordered btn--lg" href="#">Get A Reservation Now</a>
+                        </div>
+                    </div>
+                </li>
+                @foreach(var item in Model)
+                {
+                    <!-- slide 1 -->
+                    <li data-transition="zoomin"
+                        data-slotamount="default"
+                        data-easein="Power4.easeInOut"
+                        data-easeout="Power4.easeInOut"
+                        data-masterspeed="2000">
+                        <!-- MAIN IMAGE -->
+                        <img src="~/uploads/Sliders/@item.ImageUrl" alt="Slide Background Image" width="1920" height="1280">
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-130"
+                             data-whitespace="nowrap"
+                             data-width="none"
+                             data-height="none"
+                             data-frames='[{"delay":1500,"speed":1000,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' data-splitin="none"
+                             data-splitout="none"
+                             data-responsive_offset="on">
+                            <div class="slide--subheadline">@item.Subtitle</div>
+                        </div>
+
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="-65"
+                             data-whitespace="nowrap"
+                             data-width="none"
+                             data-height="none"
+                             data-frames='[{"delay":1750,"speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-splitin="none"
+                             data-splitout="none"
+                             data-responsive_offset="on">
+                            <div class="slide--headline">@item.Title</div>
+                        </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption"
+                             data-x="center" data-hoffset="0"
+                             data-y="center" data-voffset="20"
+                             data-width="none"
+                             data-height="none"
+                             data-frames='[{"delay":2000,"speed":1500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+                             data-splitin="none"
+                             data-splitout="none"
+                             data-responsive_offset="on">
+                            <div class="slide--bio text-center">@item.Description </div>
+                        </div>
+                    </li>
+                }
+                <!-- slide 1 -->
 			</ul>
 		</div>
 		<!-- END REVOLUTION SLIDER -->
@@ -202,9 +137,9 @@
             <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2">
                 <div class="heading heading-1 mb-50 text--center">
                     <p class="heading--subtitle">Hello dear</p>
-                    <h2 class="heading--title mb-0">Welcome To Granny</h2>
+                    <h2 class="heading--title mb-0">Welcome To Odyssey</h2>
                     <div class="divider--shape-4"></div>
-                    <p class="heading--desc">Granny was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+                    <p class="heading--desc">Odyssey was the first retaurant to open in Azerbaijan, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
                 </div>
             </div>
             <!-- .col-md-8 end -->
@@ -235,7 +170,7 @@
                                     <div class="banner--content">
                                         <h3>Start eating better</h3>
                                         <h4>Daily New Fresh Menus</h4>
-                                        <p>Granny help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!</p>
+                                        <p>Odyssey help you treat yourself with a different meal everyday, thanks to our daily changing menus and our awesome creative chefs!</p>
                                     </div>
                                 </div>
                                 <!-- .banner-panel end -->
@@ -250,7 +185,7 @@
                                     <div class="banner--content">
                                         <h3>Quality is the heart</h3>
                                         <h4>Fresh Ingredient, Tasty Meals</h4>
-                                        <p>Who said healthy food can't also be delicious? Granny creative chefs use fresh and seasonal ingredients to make affordable.</p>
+                                        <p>Who said healthy food can't also be delicious? Odyssey creative chefs use fresh and seasonal ingredients to make affordable.</p>
                                     </div>
                                 </div>
                                 <!-- .banner-panel end -->
@@ -265,7 +200,7 @@
                                     <div class="banner--content">
                                         <h3>Hot & ready to serve</h3>
                                         <h4>Creative & Talented Chefs</h4>
-                                        <p>Granny have offered a team of culinary professionals that make delectable dishes at memorable events for both private clientele.</p>
+                                        <p>Odyssey have offered a team of culinary professionals that make delectable dishes at memorable events for both private clientele.</p>
                                     </div>
                                 </div>
                                 <!-- .banner-panel end -->
@@ -292,7 +227,7 @@
                                     <h6>1995</h6>
                                     <h3>Grand Opening</h3>
                                     <div class="divider--shape-13"></div>
-                                    <p>Granny was opened in May 6, 1990, the interior was created by the most famous artists. Today our restaurant welcomes 250 people!</p>
+                                    <p>Odyssey was opened in May 6, 1990, the interior was created by the most famous artists. Today our restaurant welcomes 250 people!</p>
                                 </div>
                             </div>
                             <!-- .col-md-4 end -->
@@ -301,7 +236,7 @@
                                     <h6>2005</h6>
                                     <h3>Second Branch</h3>
                                     <div class="divider--shape-13"></div>
-                                    <p>Since the very first day, Granny was a gathering place for teachers, doctors, actors. Therefore we decided to open our second branch!</p>
+                                    <p>Since the very first day, Odyssey was a gathering place for teachers, doctors, actors. Therefore we decided to open our second branch!</p>
                                 </div>
                             </div>
                             <!-- .col-md-4 end -->
@@ -310,7 +245,7 @@
                                     <h6>2015</h6>
                                     <h3>Great Taste Award</h3>
                                     <div class="divider--shape-13"></div>
-                                    <p>Granny was and still remains not just a restaurant, but also a remarkable part of the culture. We are happy to announce that we claim tate award.</p>
+                                    <p>Odyssey was and still remains not just a restaurant, but also a remarkable part of the culture. We are happy to announce that we claim tate award.</p>
                                 </div>
                             </div>
                             <!-- .col-md-4 end -->
@@ -330,7 +265,7 @@
                                     <li><img src="~/assets/images/tabs/5.png" alt="logo"></li>
                                     <li><img src="~/assets/images/tabs/6.png" alt="logo"></li>
                                 </ul>
-                                <h3 class="tab--heading">Since our grand opening in May 1995, Granny has won great awards from food critics and organizations all over the world.</h3>
+                                <h3 class="tab--heading">Since our grand opening in May 1995, Odyssey has won great awards from food critics and organizations all over the world.</h3>
                             </div>
                             <!-- .col-md-10 end -->
                         </div>
@@ -1927,7 +1862,7 @@
                         </div>
                         <!-- .testimonial-rating end -->
                         <div class="testimonial--body">
-                            <p>“ Granny is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
+                            <p>“ Odyssey is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
                         </div>
                         <!-- .testimonial-body end -->
                         <div class="testimonial--meta">
@@ -1953,7 +1888,7 @@
                         </div>
                         <!-- .testimonial-rating end -->
                         <div class="testimonial--body">
-                            <p>“ We've been to Granny many times over the years. We know what to expect: great food and awesome prices ”</p>
+                            <p>“ We've been to Odyssey many times over the years. We know what to expect: great food and awesome prices ”</p>
                         </div>
                         <!-- .testimonial-body end -->
                         <div class="testimonial--meta">
@@ -2005,7 +1940,7 @@
                         </div>
                         <!-- .testimonial-rating end -->
                         <div class="testimonial--body">
-                            <p>“ Granny is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
+                            <p>“ Odyssey is simply the best. Great Food, nice atmosphere and very reasonable prices. It just doesn't get any better ”</p>
                         </div>
                         <!-- .testimonial-body end -->
                         <div class="testimonial--meta">

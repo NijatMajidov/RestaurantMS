@@ -118,7 +118,42 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 await _tableService.Update(UpdateDTO.Id, UpdateDTO);
             }
+            catch(EntityNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View("Error");
+            }
             catch (EntityNullReferenceException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (RMS.Business.Exceptions.FileNotFoundException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (FileContentypeException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (FileSizeException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (TableCapacityException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (NameSizeException ex)
+            {
+                ModelState.AddModelError(ex.MyProperty, ex.Message);
+                return View();
+            }
+            catch (NameFormatException ex)
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
@@ -127,11 +162,6 @@ namespace Restaurant.Areas.Admin.Controllers
             {
                 ModelState.AddModelError(ex.MyProperty, ex.Message);
                 return View();
-            }
-            catch (EntityNotFoundException ex)
-            {
-                ModelState.AddModelError(ex.MyProperty, ex.Message);
-                return View("Error");
             }
             catch (Exception ex)
             {

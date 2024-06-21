@@ -1,12 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RMS.Core.Entities.Common;
 using RMS.Data.DAL;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RMS.Data.Repositories
 {

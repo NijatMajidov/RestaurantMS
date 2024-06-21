@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using RMS.Business.DTOs.CategoryDTOs;
 using RMS.Business.Exceptions;
-using RMS.Business.Exceptions.CategoryEx;
 using RMS.Business.Services.Abstracts;
 using RMS.Core.Entities;
 using RMS.Data.Repositories.Abstractions;
@@ -25,9 +24,9 @@ namespace RMS.Business.Services.Concretes
             if (categoryCreateDTO == null) 
                 throw new EntityNullReferenceException("", "Category null");
             if (categoryCreateDTO.Name.Length < 3 || categoryCreateDTO.Name.Length>50) 
-                throw new CategoryNameSizeException("Name", "Category Name size 3-50 char");
+                throw new NameSizeException("Name", "Category Name size 3-50 char");
             if (!Regex.IsMatch(categoryCreateDTO.Name, @"^[a-zA-Z]+$"))
-                throw new CategoryNameFormatException("Name", "Category Name must contain only letters (a-z, A-Z)");
+                throw new NameFormatException("Name", "Category Name must contain only letters (a-z, A-Z)");
             var existingCategory = await _categoryRepository.GetAsync(x=>x.Name == categoryCreateDTO.Name);
             if (existingCategory != null)
             {
@@ -85,9 +84,9 @@ namespace RMS.Business.Services.Concretes
             if (categoryUpdateDTO == null) 
                 throw new EntityNullReferenceException("", "Category bos ola bilmez");
             if (categoryUpdateDTO.Name.Length < 3 || categoryUpdateDTO.Name.Length > 50) 
-                throw new CategoryNameSizeException("Name", "Category Name size 3-50 char");
+                throw new NameSizeException("Name", "Category Name size 3-50 char");
             if (!Regex.IsMatch(categoryUpdateDTO.Name, @"^[a-zA-Z]+$"))
-                throw new CategoryNameFormatException("Name", "Category Name must contain only letters (a-z, A-Z)");
+                throw new NameFormatException("Name", "Category Name must contain only letters (a-z, A-Z)");
             var existingCategory = await _categoryRepository.GetAsync(x => x.Name == categoryUpdateDTO.Name && x.Id!=id);
             if (existingCategory != null)
             {

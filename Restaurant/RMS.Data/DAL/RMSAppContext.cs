@@ -2,12 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using RMS.Core.Entities;
 using RMS.Core.Entities.Employee;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RMS.Data.DAL
 {
@@ -30,6 +25,7 @@ namespace RMS.Data.DAL
         }
         public DbSet<Category> Categories { get; set;}
         public DbSet<Table> Tables { get; set;}
+        public DbSet<Slide> Slides { get; set;}
         
     }
 }
