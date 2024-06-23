@@ -177,6 +177,9 @@ namespace RMS.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<bool>("EmailConfirmedToken")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
@@ -200,6 +203,9 @@ namespace RMS.Data.Migrations
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PasswordResetToken")
+                        .HasColumnType("bit");
 
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
@@ -254,7 +260,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 0, 34, 6, 11, DateTimeKind.Utc).AddTicks(2255));
+                        .HasDefaultValue(new DateTime(2024, 7, 4, 23, 3, 26, 35, DateTimeKind.Utc).AddTicks(9844));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -285,7 +291,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 0, 34, 6, 11, DateTimeKind.Utc).AddTicks(6167));
+                        .HasDefaultValue(new DateTime(2024, 7, 4, 23, 3, 26, 36, DateTimeKind.Utc).AddTicks(7063));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");
@@ -334,7 +340,7 @@ namespace RMS.Data.Migrations
                     b.Property<DateTime>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 6, 30, 0, 34, 6, 11, DateTimeKind.Utc).AddTicks(9702));
+                        .HasDefaultValue(new DateTime(2024, 7, 4, 23, 3, 26, 37, DateTimeKind.Utc).AddTicks(4595));
 
                     b.Property<DateTime?>("DeletedDate")
                         .HasColumnType("datetime2");

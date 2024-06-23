@@ -1,13 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RMS.Business;
+using RMS.Business.Helpers.Email;
 using RMS.Business.Mapping;
-using RMS.Business.Services.Abstracts;
-using RMS.Business.Services.Concretes;
 using RMS.Core.Entities;
 using RMS.Data.DAL;
-using RMS.Data.Repositories.Abstractions;
-using RMS.Data.Repositories.Implementations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,12 +21,33 @@ builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
     opt.User.AllowedUserNameCharacters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_@";
     opt.User.RequireUniqueEmail = true;
     opt.Lockout.MaxFailedAccessAttempts = 5;
-}).AddEntityFrameworkStores<RMSAppContext>();
+    opt.Tokens.EmailConfirmationTokenProvider = "emailconfirmation";
+    opt.Tokens.ProviderMap.Add("emailconfirmation", new TokenProviderDescriptor(typeof(DataProtectorTokenProvider<AppUser>)));
+    opt.Tokens.EmailConfirmationTokenProvider = TokenOptions.DefaultProvider;
+    opt.Tokens.PasswordResetTokenProvider = "passwordreset";
+    opt.Tokens.ProviderMap.Add("passwordreset", new TokenProviderDescriptor(typeof(DataProtectorTokenProvider<AppUser>)));
+    opt.Tokens.PasswordResetTokenProvider = TokenOptions.DefaultProvider;
+}).AddEntityFrameworkStores<RMSAppContext>().AddDefaultTokenProviders();
+
+builder.Services.Configure<DataProtectionTokenProviderOptions>(opt =>
+{
+    opt.TokenLifespan = TimeSpan.FromMinutes(1);
+});
+builder.Services.Configure<DataProtectionTokenProviderOptions>("emailconfirmation", opt =>
+{
+    opt.TokenLifespan = TimeSpan.FromMinutes(1);
+});
+
+builder.Services.Configure<DataProtectionTokenProviderOptions>("passwordreset", opt =>
+{
+    opt.TokenLifespan = TimeSpan.FromMinutes(1);
+});
 
 builder.Services.AddDbContext<RMSAppContext>(opt =>
 {
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default"));
 });
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

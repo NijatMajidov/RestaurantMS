@@ -269,3 +269,6 @@ C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\Fluent
 C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\obj\Debug\net8.0\Restaurant.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\MailKit.dll
+C:\Users\user\Desktop\RestaurantMS\Restaurant\Restaurant\bin\Debug\net8.0\MimeKit.dll
