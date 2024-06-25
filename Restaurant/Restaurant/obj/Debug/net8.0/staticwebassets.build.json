@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6BWv9QUXDbmoK/JRP3aiY9BKmO3xaBdEkl3N93VrMEU=",
+  "Hash": "Ak4i83SxB5fuAMZkPWQlUbvJfMIP4ptFKj6ZDwQb1kI=",
   "Source": "Restaurant",
   "BasePath": "_content/Restaurant",
   "Mode": "Default",
@@ -4995,12 +4995,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\landing\\demos\\9.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\log-light.png",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-dark.png",
+      "RelativePath": "assets/images/logo/log-light.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5011,15 +5011,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-dark.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\log-light.png"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark2.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoDark.png",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-dark2.png",
+      "RelativePath": "assets/images/logo/logoDark.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5030,26 +5030,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-dark2.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark-yellow.png",
-      "SourceId": "Restaurant",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
-      "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-dark-yellow.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-dark-yellow.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logoDark.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-footer.png",
@@ -5071,12 +5052,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-footer.png"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-light.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoLight.png",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-light.png",
+      "RelativePath": "assets/images/logo/logoLight.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5087,26 +5068,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-light.png"
-    },
-    {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long.png",
-      "SourceId": "Restaurant",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
-      "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-long.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-long.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logoLight.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long-brown.png",
@@ -5128,12 +5090,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-long-brown.png"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long-white.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-yellow.png",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logo-long-white.png",
+      "RelativePath": "assets/images/logo/logo-yellow.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5144,7 +5106,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-long-white.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-yellow.png"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\1.jpg",

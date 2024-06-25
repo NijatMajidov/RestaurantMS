@@ -60,7 +60,7 @@ namespace Restaurant.Controllers
                 ToEmail = user.Email,
                 Body = $"<a href='{link}'>Confirm Email</a>"
             });
-            await _userManager.AddToRoleAsync(user, UserRole.Admin.ToString());
+            await _userManager.AddToRoleAsync(user, UserRole.Member.ToString());
             return RedirectToAction("Login");
         }
 

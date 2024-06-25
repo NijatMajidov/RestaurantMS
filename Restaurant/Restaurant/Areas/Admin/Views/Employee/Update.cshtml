@@ -1,0 +1,82 @@
+﻿@using RMS.Business.DTOs.EmployeeDTOs
+@model UpdateEmployeeDto
+
+@{
+    var roles = ViewData["Roles"] as List<string>;
+}
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Title Start -->
+                <section class="scroll-section" id="title">
+                    <div class="page-title-container">
+                        <h1 class="mb-0 pb-0 display-4">Update Employee</h1>
+                        <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                            <ul class="breadcrumb pt-0">
+                                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Employee">Employee</a></li>
+                                <li class="breadcrumb-item"><a>Update</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <!-- Title End -->
+
+                <div>
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <p class="mb-0">İşçi məlumatlarını yeniləmək üçün aşağıdakı formu doldurun</p>
+                        </div>
+                    </div>
+                    <section class="scroll-section" id="formRow">
+                        <h2 class="small-title">Update Form</h2>
+                        <div class="card mb-5">
+                            <div class="card-body">
+                                <form method="post" class="row g-3">
+                                    <div class="col-md-6">
+                                        <label asp-for="Name" class="form-label">Name</label>
+                                        <input asp-for="Name" class="form-control" placeholder="First Name">
+                                        <span asp-validation-for="Name" style="color:red"></span>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label asp-for="Surname" class="form-label">Surname</label>
+                                        <input asp-for="Surname" class="form-control" placeholder="Last Name">
+                                        <span asp-validation-for="Surname" style="color:red"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label asp-for="Email" class="form-label">Email Address</label>
+                                        <input asp-for="Email" class="form-control" placeholder="email@gmail.com">
+                                        <span asp-validation-for="Email" style="color:red"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label asp-for="UserName" class="form-label">User Name</label>
+                                        <input asp-for="UserName" class="form-control" placeholder="userName">
+                                        <span asp-validation-for="UserName" style="color:red"></span>
+                                    </div>
+                                    <div class="col-12">
+                                        <label asp-for="Role" class="form-label">Role</label>
+                                        <select asp-for="Role" class="form-control">
+                                            @foreach (var role in roles)
+                                            {
+                                                var isSelected = role == Model.Role ? "selected" : "";
+                                                <option value="@role">@role</option>
+                                            }
+                                        </select>
+                                        <span asp-validation-for="Role" style="color:red"></span>
+                                    </div>
+                                    <div asp-validation-summary="ModelOnly"></div>
+                                    <div class="col-12 d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary">Update Employee</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                    </section>
+                </div>
+                <!-- Content End -->
+            </div>
+        </div>
+    </div>
+</main>

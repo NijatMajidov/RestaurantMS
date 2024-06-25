@@ -38,7 +38,7 @@ namespace RMS.Business.Services.Concretes
                 throw new FileSizeException("ImageFile", "Image file Size error!!");
             if (CreateDTO.Capacity < 1 || CreateDTO.Capacity > 16)
             {
-                throw new TableCapacityException("Capacity", "Table Capacity minimum 3 maximum 16");
+                throw new TableCapacityException("Capacity", "Table Capacity minimum 1 maximum 16");
             }
             if (CreateDTO.Name.Length != 3)
                 throw new NameSizeException("Name", "Table Name uzunlugu 3 char olmalidir: A12");

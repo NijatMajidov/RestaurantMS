@@ -1,6 +1,7 @@
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\bin\Debug\net8.0\RMS.Core.deps.json
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\bin\Debug\net8.0\RMS.Core.dll
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\bin\Debug\net8.0\RMS.Core.pdb
+C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.csproj.AssemblyReference.cache
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.AssemblyInfoInputs.cache
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.AssemblyInfo.cs
@@ -10,4 +11,3 @@ C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\refint\RMS.Core.dll
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.pdb
 C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\ref\RMS.Core.dll
-C:\Users\user\Desktop\RestaurantMS\Restaurant\RMS.Core\obj\Debug\net8.0\RMS.Core.csproj.AssemblyReference.cache

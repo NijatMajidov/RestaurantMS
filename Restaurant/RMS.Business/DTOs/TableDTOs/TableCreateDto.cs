@@ -8,6 +8,7 @@ namespace RMS.Business.DTOs.TableDTOs
         public string Name { get; set; } = null!;
         public int Capacity { get; set; }
         public IFormFile ImageFile { get; set; } = null!;
+        public string WaiterId { get; set; } = null!;
     }
     public class TableCreateDTOValidator : AbstractValidator<TableCreateDto>
     {

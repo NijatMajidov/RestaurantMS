@@ -14,12 +14,13 @@ namespace RMS.Business
             services.AddScoped<ITableService, TableService>();
             services.AddScoped<ISlideService, SlideService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IReservationService, ReservationService>();
             services.AddScoped<IMailService, MailService>();
 
             services.AddScoped<ITableRepository, TableRepository>();
             services.AddScoped<ISlideRepository, SlideRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
-
+            services.AddScoped<IReservationRepository, ReservationRepository>();
         }
     }
 }

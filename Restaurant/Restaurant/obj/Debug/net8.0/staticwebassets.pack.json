@@ -1045,36 +1045,28 @@
       "PackagePath": "staticwebassets\\assets\\images\\landing\\demos\\9.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark-yellow.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-dark-yellow.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-dark.png"
-    },
-    {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-dark2.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-dark2.png"
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\log-light.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\log-light.png"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-footer.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-footer.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-light.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-light.png"
-    },
-    {
       "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long-brown.png",
       "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-long-brown.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long-white.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-long-white.png"
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-yellow.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-yellow.png"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-long.png",
-      "PackagePath": "staticwebassets\\assets\\images\\logo\\logo-long.png"
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoDark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logoDark.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoLight.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo\\logoLight.png"
     },
     {
       "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\menu\\gallery\\1.jpg",
