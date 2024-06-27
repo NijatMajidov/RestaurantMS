@@ -4,6 +4,6 @@ namespace RMS.Business.Services.Abstracts
 {
     public interface IMailService
     {
-        Task SendEmailAsync(MailRequest mailRequest);
+        Task SendEmailAsync(MailRequest mailRequest, byte[] QRCode=null);
     }
 }

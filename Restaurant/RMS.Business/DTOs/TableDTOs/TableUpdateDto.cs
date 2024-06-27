@@ -9,7 +9,7 @@ namespace RMS.Business.DTOs.TableDTOs
         public string? Name { get; set; }
         public int Capacity { get; set; }
         public IFormFile? ImageFile { get; set; }
-        public string WaiterId { get; set; } = null!;
+        public string? WaiterId { get; set; } = null!;
     }
     public class TableUpdateDtoValidator : AbstractValidator<TableUpdateDto>
     {

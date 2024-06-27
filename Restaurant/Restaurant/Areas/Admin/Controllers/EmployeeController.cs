@@ -130,7 +130,7 @@ namespace Restaurant.Areas.Admin.Controllers
 
         public async Task<IActionResult> Update(string id)
         {
-            if (id == null) return NotFound();
+            if (id == null) return View("error");
 
             var user = await _userManager.FindByIdAsync(id);
             if (user == null) return View("Error");

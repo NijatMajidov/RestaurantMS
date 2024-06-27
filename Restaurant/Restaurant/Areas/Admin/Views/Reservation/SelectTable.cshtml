@@ -1,0 +1,173 @@
+﻿@model ReservCreateDto
+@{
+    Layout = "";
+    ViewBag.Title = "Select Table";
+    var tables = ViewBag.Tables as IEnumerable<TableGetDto>;
+    var user = ViewBag.User as AppUser;
+}
+<!DOCTYPE html>
+<html lang="en" data-footer="true" data-scrollspy="true">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Acorn Admin Template | Form Layouts</title>
+    <meta name="description" content="Examples and usage guidelines for form control styles and layout options." />
+    <!-- Favicon Tags Start -->
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="~/manage/img/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="~/manage/img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="~/manage/img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="~/manage/img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="~/manage/img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="~/manage/img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="~/manage/img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="~/manage/img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="~/manage/img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;" />
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="~/manage/img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="~/manage/img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="~/manage/img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="~/manage/img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="~/manage/img/favicon/mstile-310x310.png" />
+    <!-- Favicon Tags End -->
+    <!-- Font Tags Start -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="font/CS-Interface/style.css" />
+    <!-- Font Tags End -->
+    <!-- Vendor Styles Start -->
+    <link rel="stylesheet" href="~/manage/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/manage/css/vendor/OverlayScrollbars.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/select2.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/select2-bootstrap4.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/bootstrap-datepicker3.standalone.min.css" />
+
+    <link rel="stylesheet" href="~/manage/css/vendor/tagify.css" />
+
+    <!-- Vendor Styles End -->
+    <!-- Template Base Styles Start -->
+    <link rel="stylesheet" href="~/manage/css/styles.css" />
+    <!-- Template Base Styles End -->
+
+    <link rel="stylesheet" href="~/manage/css/main.css" />
+    <script src="~/manage/js/base/loader.js"></script>
+</head>
+
+<body>
+    <div id="root">
+        <main>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2>Select Table</h2>
+
+                        @if (tables == null || !tables.Any())
+                        {
+                            <p>No active tables available for reservation.</p>
+                        }
+                        else
+                        {
+                            <section class="scroll-section" id="formRow">
+                                <h2 class="small-title">Select a Table</h2>
+                                <div class="card mb-5">
+                                    <div class="card-body">
+                                        <form asp-action="SelectTable" method="post" class="row g-3">
+                                            <div class="form-group">
+                                                <label asp-for="TableId" class="form-label">Table</label>
+                                                <div class="container">
+                                                    <div class="row">
+                                                        @foreach (var table in tables)
+                                                        {
+                                                            <div class="col-md-3">
+                                                                <div class="card" style="width: 18rem;">
+                                                                    <img class="card-img-top" src="~/uploads/Tables/@table.ImageUrl" width="100" height="100" alt="Card image cap">
+                                                                    <div class="card-body">
+                                                                        <h5 class="card-title">@table.Name</h5>
+                                                                        <p class="card-text">Capacity: @table.Capacity</p>
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="radio" name="TableId" id="table-@table.Id" value="@table.Id">
+                                                                        <label class="form-check-label" for="table-@table.Id">Select</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" asp-for="FirstName" />
+                                            <input type="hidden" asp-for="LastName" />
+                                            <input type="hidden" asp-for="Email" />
+                                            <input type="hidden" asp-for="Phone" />
+                                            <input type="hidden" asp-for="ReservationDate" />
+                                            <input type="hidden" asp-for="ReservationTime" />
+                                            <input type="hidden" asp-for="NumberOfGuests" />
+                                            <input type="hidden" asp-for="Note" />
+                                            <div asp-validation-summary="ModelOnly"></div>
+                                            <button type="submit" class="btn btn-primary">Submit Reservation</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </section>
+                        }
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Layout Footer Start -->
+        <footer>
+            <div class="footer-content text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>Odyssey Restaurant | 2024</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Layout Footer End -->
+    </div>
+    <!-- Vendor Scripts Start -->
+    <script src="~/manage/js/vendor/jquery-3.5.1.min.js"></script>
+    <script src="~/manage/js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="~/manage/js/vendor/OverlayScrollbars.min.js"></script>
+    <script src="~/manage/js/vendor/autoComplete.min.js"></script>
+    <script src="~/manage/js/vendor/clamp.min.js"></script>
+
+    <script src="~/manage/icon/acorn-icons.js"></script>
+    <script src="~/manage/icon/acorn-icons-interface.js"></script>
+
+    <script src="~/manage/js/cs/scrollspy.js"></script>
+
+    <script src="~/manage/js/vendor/select2.full.min.js"></script>
+
+    <script src="~/manage/js/vendor/datepicker/bootstrap-datepicker.min.js"></script>
+
+    <script src="~/manage/js/vendor/tagify.min.js"></script>
+
+    <!-- Vendor Scripts End -->
+    <!-- Template Base Scripts Start -->
+    <script src="~/manage/js/base/helpers.js"></script>
+    <script src="~/manage/js/base/globals.js"></script>
+    <script src="~/manage/js/base/nav.js"></script>
+    <script src="~/manage/js/base/search.js"></script>
+    <script src="~/manage/js/base/settings.js"></script>
+    <!-- Template Base Scripts End -->
+    <!-- Page Specific Scripts Start -->
+
+    <script src="~/manage/js/forms/layouts.js"></script>
+
+    <script src="~/manage/js/common.js"></script>
+    <script src="~/manage/js/scripts.js"></script>
+    <!-- Page Specific Scripts End -->
+</body>
+</html>

@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F38EEB9F-3EC0-4842-9D78-559C30DBA433}|RMS.Business\\RMS.Business.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\rms.business\\services\\concretes\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38EEB9F-3EC0-4842-9D78-559C30DBA433}|RMS.Business\\RMS.Business.csproj|solutionrelative:rms.business\\services\\concretes\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\employee\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F38EEB9F-3EC0-4842-9D78-559C30DBA433}|RMS.Business\\RMS.Business.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\rms.business\\services\\concretes\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F38EEB9F-3EC0-4842-9D78-559C30DBA433}|RMS.Business\\RMS.Business.csproj|solutionrelative:rms.business\\services\\concretes\\tableservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\reservation\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\reservation\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|c:\\users\\user\\desktop\\restaurantms\\restaurant\\restaurant\\areas\\admin\\views\\reservation\\selectupdatetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{333CFD5E-70EE-4BAE-A158-FEDCE6A0551B}|Restaurant\\Restaurant.csproj|solutionrelative:restaurant\\areas\\admin\\views\\reservation\\selectupdatetable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 848,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
-              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Employee\\Update.cshtml",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAWwFAAAAAKAAAA",
+              "DocumentIndex": 4,
+              "Title": "SelectUpdateTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Reservation\\SelectUpdateTable.cshtml",
+              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Reservation\\SelectUpdateTable.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Reservation\\SelectUpdateTable.cshtml",
+              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Reservation\\SelectUpdateTable.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T21:46:31.876Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T17:16:50.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Reservation\\Update.cshtml",
+              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Views\\Reservation\\Update.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Views\\Reservation\\Update.cshtml",
+              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Views\\Reservation\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T17:16:37.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TableService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\RMS.Business\\Services\\Concretes\\TableService.cs",
+              "RelativeDocumentMoniker": "RMS.Business\\Services\\Concretes\\TableService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\RMS.Business\\Services\\Concretes\\TableService.cs",
+              "RelativeToolTip": "RMS.Business\\Services\\Concretes\\TableService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwBoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T17:12:11.412Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Restaurant\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADkBAAAAAAAAAAAAwGYBAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T21:39:17.653Z",
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\RMS.Business\\Services\\Concretes\\ReservationService.cs",
+              "RelativeDocumentMoniker": "RMS.Business\\Services\\Concretes\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\RMS.Business\\Services\\Concretes\\ReservationService.cs",
+              "RelativeToolTip": "RMS.Business\\Services\\Concretes\\ReservationService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAUwEkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:17:36.095Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Restaurant\\Areas\\Admin\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\Areas\\Admin\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Restaurant\\Areas\\Admin\\Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAOEAAAAAAAAAAAAWwPsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T15:09:43.595Z"
             }
           ]
         }

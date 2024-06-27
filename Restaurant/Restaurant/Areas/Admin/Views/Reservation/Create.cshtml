@@ -3,6 +3,7 @@
     Layout = "";
     ViewBag.Title = "Create Reservation";
     var tables = ViewBag.Tables as IEnumerable<TableGetDto>;
+    var user = ViewBag.User as AppUser;
 }
 <!DOCTYPE html>
 <html lang="en" data-footer="true" data-scrollspy="true">
@@ -67,62 +68,57 @@
                 <div class="row">
                     <div class="col">
                         <h2>Create Reservation</h2>
-
-                        @if (tables == null || !tables.Any())
-                        {
-                            <p>No active tables available for reservation.</p>
-                        }
-                        else
-                        {
-                            <form asp-action="Create" method="post">
-                                <div class="form-group">
-                                    <label for="TableId">Table</label>
-                                    <select id="TableId" asp-for="TableId" class="form-control">
-                                        <option value="">Select Table</option>
-                                        @foreach (var table in tables)
-                                        {
-                                            <option value="@table.Id">
-                                                @table.Name
-                                                @if (!string.IsNullOrEmpty(table.ImageUrl))
-                                                {
-                                                    <img src="~/uploads/Tables/@table.ImageUrl" alt="@table.Name" style="max-width: 100px; max-height: 100px;" />
-                                                }
-                                            </option>
-                                        }
-                                    </select>
+                        <section class="scroll-section" id="formRow">
+                            <h2 class="small-title">Register Form</h2>
+                            <div class="card mb-5">
+                                <div class="card-body">
+                                    <form asp-action="Create" method="post" class="row g-3">
+                                        <div class="col-md-6">
+                                            <label asp-for="FirstName" class="form-label"></label>
+                                            <input asp-for="FirstName" value="@user?.Name" class=" form-control" />
+                                            <span asp-validation-for="FirstName" style="color:red"></span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label asp-for="LastName" class="form-label"></label>
+                                            <input asp-for="LastName" value="@user?.Surname" class="form-control" />
+                                            <span asp-validation-for="LastName" style="color:red"></span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label asp-for="Email" class="form-label"></label>
+                                            <input asp-for="Email" value="@user?.Email" class="form-control" />
+                                            <span asp-validation-for="Email" style="color:red"></span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label asp-for="Phone" class="form-label"></label>
+                                            <input asp-for="Phone" required pattern="\d{10}" title="Phone number must be 10 digits" class="form-control" />
+                                            <span asp-validation-for="Phone" style="color:red"></span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label asp-for="ReservationDate" class="form-label">Reservation Date</label>
+                                            <input asp-for="ReservationDate" type="date" class="form-control" />
+                                            <span asp-validation-for="ReservationDate" style="color:red"></span>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label asp-for="ReservationTime" class="form-label">Reservation Time</label>
+                                            <input asp-for="ReservationTime" type="time" class="form-control" />
+                                            <span asp-validation-for="ReservationTime" style="color:red"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label asp-for="NumberOfGuests"></label>
+                                            <input asp-for="NumberOfGuests" class="form-control" />
+                                            <span asp-validation-for="NumberOfGuests" style="color:red"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label asp-for="Note"></label>
+                                            <input asp-for="Note" class="form-control" />
+                                            <span asp-validation-for="Note" style="color:red"></span>
+                                        </div>
+                                        <div asp-validation-summary="ModelOnly"></div>
+                                        <button type="submit" class="btn btn-primary">Next</button>
+                                    </form>
                                 </div>
-                                <div class="form-group">
-                                    <label asp-for="FirstName"></label>
-                                    <input asp-for="FirstName" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="LastName"></label>
-                                    <input asp-for="LastName" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="Email"></label>
-                                    <input asp-for="Email" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="Phone"></label>
-                                    <input asp-for="Phone" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="ReservDate"></label>
-                                    <input asp-for="ReservDate" type="date" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="ReservTime"></label>
-                                    <input asp-for="ReservTime" type="time" class="form-control" />
-                                </div>
-                                <div class="form-group">
-                                    <label asp-for="GuestCount"></label>
-                                    <input asp-for="GuestCount" class="form-control" />
-                                </div>
-                                <button type="submit" class="btn btn-primary">Reserve</button>
-                            </form>
-                        }
-
+                            </div>
+                        </section>
                     </div>
                 </div>
             </div>
@@ -176,4 +172,3 @@
     <!-- Page Specific Scripts End -->
 </body>
 </html>
-

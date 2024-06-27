@@ -14,7 +14,7 @@ namespace RMS.Business.Services.Concretes
         {
             _mailSettings = mailSettings.Value;
         }
-        public async Task SendEmailAsync(MailRequest mailRequest)
+        public async Task SendEmailAsync(MailRequest mailRequest, byte[] QRCode=null)
         {
             var email = new MimeMessage();
             email.Sender = MailboxAddress.Parse(_mailSettings.Mail);
@@ -36,6 +36,10 @@ namespace RMS.Business.Services.Concretes
                         builder.Attachments.Add(file.FileName, fileBytes, ContentType.Parse(file.ContentType));
                     }
                 }
+            }
+            if (QRCode != null && QRCode.Length > 0)
+            {
+                builder.Attachments.Add("QRCode.png", QRCode, new ContentType("image", "png"));
             }
             builder.HtmlBody = mailRequest.Body;
             email.Body = builder.ToMessageBody();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ak4i83SxB5fuAMZkPWQlUbvJfMIP4ptFKj6ZDwQb1kI=",
+  "Hash": "32dFx7fxIFG5XNnTaJqQUMvabwHVRQwszCJazSkdPB4=",
   "Source": "Restaurant",
   "BasePath": "_content/Restaurant",
   "Mode": "Default",
@@ -5014,12 +5014,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\log-light.png"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoDark.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoDark.jpg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "assets/images/logo/logoDark.png",
+      "RelativePath": "assets/images/logo/logoDark.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -5030,7 +5030,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logoDark.png"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logoDark.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-footer.png",
@@ -5088,6 +5088,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logo-long-brown.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logoWhite.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "assets/images/logo/logoWhite.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\logo\\logoWhite.jpg"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\assets\\images\\logo\\logo-yellow.png",
@@ -33229,12 +33248,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\Sliders\\daaab500-7edd-4324-90bc-2c4114e8e8b1.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\400b6484-54db-4079-91b3-0590269e4c94.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\224bf33e-d97f-47bd-9bdd-62498849ebdf.jpg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "uploads/Tables/400b6484-54db-4079-91b3-0590269e4c94.png",
+      "RelativePath": "uploads/Tables/224bf33e-d97f-47bd-9bdd-62498849ebdf.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33245,15 +33264,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\400b6484-54db-4079-91b3-0590269e4c94.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\224bf33e-d97f-47bd-9bdd-62498849ebdf.jpg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\549e9ba8-3372-4a7b-b58c-40d9aeb2a552.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\40993d47-9cc4-4022-8c09-8f24f7402cdd.jpeg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "uploads/Tables/549e9ba8-3372-4a7b-b58c-40d9aeb2a552.png",
+      "RelativePath": "uploads/Tables/40993d47-9cc4-4022-8c09-8f24f7402cdd.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33264,15 +33283,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\549e9ba8-3372-4a7b-b58c-40d9aeb2a552.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\40993d47-9cc4-4022-8c09-8f24f7402cdd.jpeg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\b6861e22-06f3-4915-9620-578904ba6c91.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\889ce51b-8480-414f-92db-6439de67c83e.jpeg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "uploads/Tables/b6861e22-06f3-4915-9620-578904ba6c91.png",
+      "RelativePath": "uploads/Tables/889ce51b-8480-414f-92db-6439de67c83e.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33283,15 +33302,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\b6861e22-06f3-4915-9620-578904ba6c91.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\889ce51b-8480-414f-92db-6439de67c83e.jpeg"
     },
     {
-      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\c5c132f5-97ac-4141-a3fd-c5f0161b5208.png",
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\8d5a4c72-992c-45b3-be65-bfaaba1dc646.jpg",
       "SourceId": "Restaurant",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
       "BasePath": "_content/Restaurant",
-      "RelativePath": "uploads/Tables/c5c132f5-97ac-4141-a3fd-c5f0161b5208.png",
+      "RelativePath": "uploads/Tables/8d5a4c72-992c-45b3-be65-bfaaba1dc646.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33302,7 +33321,64 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\c5c132f5-97ac-4141-a3fd-c5f0161b5208.png"
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\8d5a4c72-992c-45b3-be65-bfaaba1dc646.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\a25dfb27-1d40-4070-9aef-e566ba721deb.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "uploads/Tables/a25dfb27-1d40-4070-9aef-e566ba721deb.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\a25dfb27-1d40-4070-9aef-e566ba721deb.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\bf94d44e-eb6a-4bdd-8304-ce474a8df287.jpeg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "uploads/Tables/bf94d44e-eb6a-4bdd-8304-ce474a8df287.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\bf94d44e-eb6a-4bdd-8304-ce474a8df287.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\Tables\\f207a94c-b213-49db-8275-4a33360b8b0c.jpg",
+      "SourceId": "Restaurant",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\",
+      "BasePath": "_content/Restaurant",
+      "RelativePath": "uploads/Tables/f207a94c-b213-49db-8275-4a33360b8b0c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\Tables\\f207a94c-b213-49db-8275-4a33360b8b0c.jpg"
     }
   ]
 }
