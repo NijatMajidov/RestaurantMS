@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using RMS.Core.Entities;
+using System.ComponentModel.DataAnnotations;
 
 namespace RMS.Business.DTOs.ReservationDTOs
 {
@@ -30,6 +31,7 @@ namespace RMS.Business.DTOs.ReservationDTOs
         [MaxLength(250)]
         public string Note { get; set; }
         public int? TableId { get; set; }
+        public Table Table { get; set; }
         public string? QrCodeData { get; set; }
     }
 }

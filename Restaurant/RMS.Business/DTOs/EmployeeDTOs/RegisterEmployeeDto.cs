@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Http;
+using System.ComponentModel.DataAnnotations;
 
 namespace RMS.Business.DTOs.EmployeeDTOs
 {
@@ -28,5 +29,8 @@ namespace RMS.Business.DTOs.EmployeeDTOs
         public string ConfirmPassword { get; set; }
         [Required]
         public string Role { get; set; }
+        public string? Biography { get; set; }
+        [Required]
+        public IFormFile ImageFile { get; set; }
     }
 }

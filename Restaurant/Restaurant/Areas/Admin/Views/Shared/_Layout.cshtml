@@ -70,21 +70,16 @@
                     </a>
                 </div>
                 <!-- Logo End -->
-                <!-- Language Switch Start -->
-                <div class="language-switch-container">
-                    <button class="btn btn-empty language-button dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</button>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">DE</a>
-                        <a href="#" class="dropdown-item active">EN</a>
-                        <a href="#" class="dropdown-item">ES</a>
-                    </div>
-                </div>
-                <!-- Language Switch End -->
+               
                 <!-- User Menu Start -->
                 <div class="user-container d-flex">
                     <a href="#" class="d-flex user position-relative" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="profile" alt="profile" src="~/manage/img/profile/profile-9.webp" />
-                        <div class="name">Lisa Jackson</div>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                           <img class="profile" alt="profile" src="~/manage/img/profile/profile-2.webp" />
+                            <div class="name">@User.Identity.Name </div>
+                        }
+                        
                     </a>
                     <div class="dropdown-menu dropdown-menu-end user-menu wide">
                         <div class="row mb-3 ms-0 me-0">
@@ -94,7 +89,7 @@
                             <div class="col-6 ps-1 pe-1">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#">User Info</a>
+                                        <a asp-action="UserInfo">User Info</a>
                                     </li>
                                     <li>
                                         <a href="#">Preferences</a>
@@ -182,17 +177,8 @@
                 <!-- User Menu End -->
                 <!-- Icons Menu Start -->
                 <ul class="list-unstyled list-inline text-center menu-icons">
-                    <li class="list-inline-item">
-                        <a href="#" data-bs-toggle="modal" data-bs-target="#searchPagesModal">
-                            <i data-acorn-icon="search" data-acorn-size="18"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#" id="pinButton" class="pin-button">
-                            <i data-acorn-icon="lock-on" class="unpin" data-acorn-size="18"></i>
-                            <i data-acorn-icon="lock-off" class="pin" data-acorn-size="18"></i>
-                        </a>
-                    </li>
+                   
+                    
                     <li class="list-inline-item">
                         <a href="#" id="colorButton">
                             <i data-acorn-icon="light-on" class="light" data-acorn-size="18"></i>
@@ -247,23 +233,7 @@
                                 <i data-acorn-icon="home" class="icon" data-acorn-size="18"></i>
                                 <span class="label">Dashboards</span>
                             </a>
-                            <ul id="dashboards">
-                                <li>
-                                    <a href="Dashboards.Default.html">
-                                        <span class="label">Default</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="Dashboards.Visual.html">
-                                        <span class="label">Visual</span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="Dashboards.Analytic.html">
-                                        <span class="label">Analytic</span>
-                                    </a>
-                                </li>
-                            </ul>
+                            
                         </li>
                         <li>
                             <a href="#apps" data-href="Apps.html">

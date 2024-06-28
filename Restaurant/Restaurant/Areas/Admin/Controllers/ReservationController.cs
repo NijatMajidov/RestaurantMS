@@ -23,6 +23,7 @@ namespace Restaurant.Areas.Admin.Controllers
             _userManager = userManager;
             _tableService = tableService;
         }
+        [Authorize(Roles = "Admin,Waiter")]
         public async Task<IActionResult> Index()
         {
             var reservs = await _reservationService.GetAllReservs(x => x.IsDeleted == false);
@@ -157,6 +158,7 @@ namespace Restaurant.Areas.Admin.Controllers
                 return View(CreateDto);
             }
         }
+        [Authorize(Roles = "Admin,Waiter")]
         public async Task<IActionResult> Update(int id)
         {
             if (id == 0) return View("error");
@@ -288,6 +290,7 @@ namespace Restaurant.Areas.Admin.Controllers
                 return View(updateDto);
             }
         }
+        [Authorize(Roles = "Admin,Waiter")]
         public async Task<IActionResult> Delete(int id)
         {
             try

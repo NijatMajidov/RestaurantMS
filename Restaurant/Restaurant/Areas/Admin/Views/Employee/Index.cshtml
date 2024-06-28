@@ -48,6 +48,8 @@
                                                 <th scope="col">Email</th>
                                                 <th scope="col">UserName</th>
                                                 <th scope="col">Role</th>
+                                                <th scope="col">Biography</th>
+                                                <th scope="col">Image</th>
                                                
                                                 <th scope="col">Actions</th>
                                             </tr>
@@ -64,6 +66,10 @@
                                                     <td>@item.Email</td>
                                                     <td>@item.UserName</td>
                                                     <td>@string.Join(", ",item.Roles)</td>
+                                                    <td>@item.Biography</td>
+                                                    <td>
+                                                        <img src="~/uploads/team/@item.ImageUrl" width="100" height="100" alt="Image" />
+                                                    </td>
                                                     <td>
                                                         <a class="btn btn-info" asp-action="Update" asp-route-id="@item.UserId">Update</a>
                                                         <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.UserId">Delete</a>

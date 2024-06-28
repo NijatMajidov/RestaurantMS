@@ -109,15 +109,18 @@ namespace RMS.Business.Services.Concretes
 
         public async Task<List<ReservGetDto>> GetAllReservs(Expression<Func<Reservation, bool>>? func = null, Expression<Func<Reservation, object>>? orderBy = null, bool isOrderByDesting = false, params string[]? includes)
         {
-            var queryable = await _reservationRepository.GetAllAsync(func, orderBy, isOrderByDesting, includes);
+            var additionalIncludes = new List<string>(includes ?? Array.Empty<string>());
+            if (!additionalIncludes.Contains("Table"))
+                additionalIncludes.Add("Table");
+
+            var queryable = await _reservationRepository.GetAllAsync(func, orderBy, true, additionalIncludes.ToArray());
             return _mapper.Map<List<ReservGetDto>>(queryable);
         }
 
         public async Task<ReservGetDto> GetReserv(Func<Reservation, bool>? func = null)
         {
             var entity = _reservationRepository.Get(func);
-            if (entity == null) throw new EntityNotFoundException("", "Table not Found");
-
+            if (entity == null) throw new EntityNotFoundException("", "entity not Found");
             return _mapper.Map<ReservGetDto>(entity);
         }
 

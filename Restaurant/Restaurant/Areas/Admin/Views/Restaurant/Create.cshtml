@@ -1,0 +1,71 @@
+﻿@model Restaurant
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Title Start -->
+                <section class="scroll-section" id="title">
+                    <div class="page-title-container">
+                        <h1 class="mb-0 pb-0 display-4">Create</h1>
+                        <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                            <ul class="breadcrumb pt-0">
+                                <li class="breadcrumb-item"><a asp-controller="Dashboard" asp-action="Index">Admin</a></li>
+                                <li class="breadcrumb-item"><a asp-action="Index">Restaurant</a></li>
+                                <li class="breadcrumb-item"><a asp-controller="Restaurant" asp-action="Create">Create</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </section>
+
+                <div class="container justify-content-center">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="col-md-3">
+                            <label asp-for="Name" class="form-label">Name</label>
+                            <input asp-for="Name" class="form-control" >
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Country" class="form-label">Country</label>
+                            <input asp-for="Country" class="form-control" >
+                            <span asp-validation-for="Country" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="City" class="form-label">City</label>
+                            <input asp-for="City" class="form-control">
+                            <span asp-validation-for="City" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="District" class="form-label">District</label>
+                            <input asp-for="District" class="form-control" >
+                            <span asp-validation-for="District" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Street" class="form-label">Street</label>
+                            <input asp-for="Street" class="form-control">
+                            <span asp-validation-for="Street" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="BuildNum" class="form-label">BuildNum</label>
+                            <input asp-for="BuildNum" class="form-control">
+                            <span asp-validation-for="BuildNum" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Email" class="form-label">Email</label>
+                            <input asp-for="Email" class="form-control">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-3">
+                            <label asp-for="Phone" class="form-label">Phone</label>
+                            <input asp-for="Phone" class="form-control">
+                            <span asp-validation-for="Phone" class="text-danger"></span>
+                        </div>
+                        <div asp-validation-summary=ModelOnly>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

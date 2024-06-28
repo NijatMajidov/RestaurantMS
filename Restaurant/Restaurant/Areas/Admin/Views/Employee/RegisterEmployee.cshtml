@@ -33,7 +33,7 @@
                         <h2 class="small-title">Register Form</h2>
                         <div class="card mb-5">
                             <div class="card-body">
-                                <form method="post" class="row g-3">
+                                <form method="post" enctype="multipart/form-data" class="row g-3">
                                     <div class="col-md-6">
                                         <label asp-for="Name" class="form-label">Name</label>
                                         <input asp-for="Name" class="form-control" placeholder="First Name">
@@ -44,12 +44,12 @@
                                         <input asp-for="Surname" class="form-control" id="inputPassword4" placeholder="Last Name">
                                         <span asp-validation-for="Surname" style="color:red"></span>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <label asp-for="Email" class="form-label">Email Address</label>
                                         <input asp-for="Email" class="form-control" id="inputEmail4" placeholder="email@gmail.com">
                                         <span asp-validation-for="Email" style="color:red"></span>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <label asp-for="UserName" class="form-label">User Name</label>
                                         <input asp-for="UserName" class="form-control" id="inputAddress2" placeholder="userName">
                                         <span asp-validation-for="UserName" style="color:red"></span>
@@ -65,7 +65,7 @@
                                         <input asp-for="ConfirmPassword" class="form-control" id="inputPassword4" placeholder="Repeat Password">
                                         <span asp-validation-for="ConfirmPassword" style="color:red"></span>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-4">
                                         <label asp-for="Role" class="form-label">Role</label>
                                         <select asp-for="Role" class="form-control">
                                             @foreach (var role in roles)
@@ -74,6 +74,16 @@
                                             }
                                         </select>
                                         <span asp-validation-for="Role" style="color:red"></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label asp-for="Biography" class="form-label">Biography</label>
+                                        <input asp-for="Biography" class="form-control" id="inputPassword4" placeholder="Bio Emplolyee">
+                                        <span asp-validation-for="Biography" style="color:red"></span>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label asp-for="ImageFile" class="form-label">Image File</label>
+                                        <input asp-for="ImageFile" class="form-control" />
+                                        <span asp-validation-for="ImageFile" style="color:red"></span>
                                     </div>
                                     <div asp-validation-summary="ModelOnly"></div>
                                     <div class="col-12 d-flex justify-content-end">

@@ -1,0 +1,154 @@
+﻿@using RMS.Business.DTOs.ReservationDTOs
+@model List<ReservGetDto>
+<section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
+    <div class="bg-section">
+        <img src="~/assets/images/page-title/12.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="title title-4 text-center">
+                    <div class="title--content">
+                        <div class="title--subtitle">Ready to serve</div>
+                        <div class="title--heading">
+                            <h1>Your Reservation</h1>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ol class="breadcrumb">
+                        <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                        <li><a asp-action="Index">MyReservation</a></li>
+                        <li class="active">My Reservs</li>
+                    </ol>
+                    <div class="divider--shape-1down"></div>
+                </div>
+                <!-- .title end -->
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+    </div>
+    <!-- .container end -->
+</section>
+<!-- #page-title end -->
+<!-- Team #1
+============================================= -->
+<section id="team1" class="team team-1 team-shadow bg-white">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-xs-12 col-sm-6 col-md-3">
+                    <div class="member">
+                        <div class="member-img">
+                            <img src="~/uploads/Tables/@item.Table.ImageUrl" width="500" height="300" alt="member">
+                            
+                            <!-- .memebr-ovelay end -->
+                        </div>
+                        <!-- .member-img end -->
+                        <div class="member-info">
+                            <h5>@item.FirstName @item.LastName</h5>
+                            <h6>Sizin Reservasiyaniz @item.ReservationDate saat @item.ReservationTime -də @item.Table.Name masasinadir</h6>
+                            <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Legv et</a>
+                        </div>
+                        <!-- .member-info end -->
+                    </div>
+                    <!-- .member end -->
+                </div>
+            }
+
+
+
+        </div>
+    </div>
+</section>
+<!-- #team1 end  -->
+<!-- Testimonial #5
+============================================= -->
+<section id="testimonial5" class="testimonial testimonial-5 bg-overlay bg-overlay-dark bg-parallax text-center">
+    <div class="bg-section">
+        <img src="~/assets/images/background/2.jpg" alt="Background" />
+    </div>
+    <div class="container">
+        <div class="divider--shape-1up"></div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
+                <div id="testimonial-wide" class="carousel carousel-white" data-slide="1" data-slide-rs="1" data-autoplay="true" data-nav="false" data-dots="false" data-space="0" data-loop="true" data-speed="800">
+                    <!-- Testimonial #1 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--img">
+                            <img src="~/assets/images/testimonial/chef-hat.png" alt="hat">
+                        </div>
+                        <div class="testimonial--body">
+                            <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>- Todd Stephen</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                    <!-- Testimonial #2 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--img">
+                            <img src="~/assets/images/testimonial/chef-hat.png" alt="hat">
+                        </div>
+                        <div class="testimonial--body">
+                            <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>- David Casper</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                    <!-- Testimonial #3 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--img">
+                            <img src="~/assets/images/testimonial/chef-hat.png" alt="hat">
+                        </div>
+                        <div class="testimonial--body">
+                            <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>- John Arax</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                    <!-- Testimonial #4 -->
+                    <div class="testimonial-panel">
+                        <div class="testimonial--img">
+                            <img src="~/assets/images/testimonial/chef-hat.png" alt="hat">
+                        </div>
+                        <div class="testimonial--body">
+                            <p class="color-white">I think the most wonderful thing in the world is another chef. I'm always excited about learning new things about food.</p>
+                        </div>
+                        <!-- .testimonial-body end -->
+                        <div class="testimonial--meta">
+                            <div class="testimonial--author">
+                                <h4>- Anthony Kevin</h4>
+                            </div>
+                        </div>
+                        <!-- .testimonial-meta end -->
+                    </div>
+                    <!-- .testimonial-panel end -->
+                </div>
+            </div>
+            <!-- .col-md-12 end -->
+        </div>
+        <!-- .row end -->
+        <div class="divider--shape-1down"></div>
+    </div>
+    <!-- .container end -->
+</section>
+

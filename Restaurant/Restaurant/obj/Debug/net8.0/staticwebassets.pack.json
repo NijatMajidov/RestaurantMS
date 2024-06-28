@@ -7021,6 +7021,50 @@
       "PackagePath": "staticwebassets\\uploads\\Tables\\f207a94c-b213-49db-8275-4a33360b8b0c.jpg"
     },
     {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\menu\\Fried fish fillet.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\menu\\Fried fish fillet.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\menu\\Grilled chicken fillet.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\menu\\Grilled chicken fillet.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\menu\\John Chandler's lasagna.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\menu\\John Chandler's lasagna.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\29216242-male-chef-portrait.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\29216242-male-chef-portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\4ea3f5ec-a08e-422d-b7da-ceec100c703b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\4ea3f5ec-a08e-422d-b7da-ceec100c703b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\AdminPhoto.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\team\\AdminPhoto.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\W6c70cb593f033b93bdb29986c6556689.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\W6c70cb593f033b93bdb29986c6556689.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\Wvector-woman-waiter-portrait.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\Wvector-woman-waiter-portrait.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\d2354797cfb995122e8bf0248cb1fd76.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\d2354797cfb995122e8bf0248cb1fd76.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\depositphotos_118546606-stock-photo-portrait-of-young-woman-chef.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\depositphotos_118546606-stock-photo-portrait-of-young-woman-chef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\RestaurantMS\\Restaurant\\Restaurant\\wwwroot\\uploads\\team\\fd05a5b2-661f-42b0-bf7d-a227b883a5ca.jpg",
+      "PackagePath": "staticwebassets\\uploads\\team\\fd05a5b2-661f-42b0-bf7d-a227b883a5ca.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Restaurant.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

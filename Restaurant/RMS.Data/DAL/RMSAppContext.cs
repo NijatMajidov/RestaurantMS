@@ -24,8 +24,10 @@ namespace RMS.Data.DAL
 
         }
         public DbSet<Category> Categories { get; set;}
+        public DbSet<MenuItem> MenuItems { get; set;}
         public DbSet<Table> Tables { get; set;}
         public DbSet<Slide> Slides { get; set;}
+        public DbSet<Restaurant> Restaurants { get; set;}
         public DbSet<Reservation> Reservations { get; set; }
 
     }

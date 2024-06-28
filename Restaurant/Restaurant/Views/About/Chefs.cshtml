@@ -1,5 +1,5 @@
-﻿<!-- Page Title #4
-============================================= -->
+﻿@using RMS.Business.DTOs.EmployeeDTOs
+@model IEnumerable<EmployeeGetDto>
 <section id="page-title" class="page-title bg-overlay bg-parallax bg-overlay-gradient">
     <div class="bg-section">
         <img src="~/assets/images/page-title/12.jpg" alt="Background" />
@@ -16,8 +16,8 @@
                     </div>
                     <div class="clearfix"></div>
                     <ol class="breadcrumb">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="index.html">about</a></li>
+                        <li><a asp-action="Index" asp-controller="Home">Home</a></li>
+                        <li><a asp-action="Index">about</a></li>
                         <li class="active">Chefs</li>
                     </ol>
                     <div class="divider--shape-1down"></div>
@@ -36,22 +36,23 @@
 <section id="team1" class="team team-1 team-shadow bg-white">
     <div class="container">
         <div class="row">
-            <!-- Member #1 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
+            @foreach(var item in Model)
+            {
+                <div class="col-xs-12 col-sm-6 col-md-3">
                 <div class="member">
                     <div class="member-img">
-                        <img src="~/assets/images/team/1.jpg" alt="member">
+                        <img src="~/uploads/team/@item.ImageUrl" width="150" height="70" alt="member">
                         <div class="member-overlay">
                             <div class="member-hover">
                                 <div class="pos-vertical-center">
                                     <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
+                                            <a href="https://facebook.com/"><i class="fa fa-facebook"></i></a>
+                                            <a href="https://x.com/"><i class="fa fa-twitter"></i></a>
+                                            <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
                                     </div>
                                     <!-- .memebr-social end -->
                                     <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
+                                        <p>@item.Biography</p>
                                     </div>
                                     <!-- .memebr-desc end -->
                                 </div>
@@ -63,259 +64,15 @@
                     </div>
                     <!-- .member-img end -->
                     <div class="member-info">
-                        <h5>Todd Stephen</h5>
-                        <h6>CEO & Founder</h6>
+                        <h5>@item.Name @item.Surname</h5>
                     </div>
                     <!-- .member-info end -->
                 </div>
                 <!-- .member end -->
             </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #2 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/2.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Walter Adler</h5>
-                        <h6>Master Chef</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #3 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/3.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>James Carter</h5>
-                        <h6>Thai Master Chef</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #4 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/4.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Michael Luke</h5>
-                        <h6>Chinese Master Chef</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #5 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/5.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>David Casper</h5>
-                        <h6>Meat Delivery</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #6 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/6.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Mostafa Amin</h5>
-                        <h6>Chef Assistant</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #7 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/7.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>John Arax</h5>
-                        <h6>Kitchen Care</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
-            <!-- Member #8 -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-                <div class="member">
-                    <div class="member-img">
-                        <img src="~/assets/images/team/8.jpg" alt="member">
-                        <div class="member-overlay">
-                            <div class="member-hover">
-                                <div class="pos-vertical-center">
-                                    <div class="member-social">
-                                        <a href="#"><i class="fa fa-facebook"></i></a>
-                                        <a href="#"><i class="fa fa-twitter"></i></a>
-                                        <a href="#"><i class="fa fa-instagram"></i></a>
-                                    </div>
-                                    <!-- .memebr-social end -->
-                                    <div class="member-desc">
-                                        <p>Passion for cooking is in his genes. He grew up appreciating outstanding food and service at an early age.</p>
-                                    </div>
-                                    <!-- .memebr-desc end -->
-                                </div>
-                                <!-- .pos-vertical-center end -->
-                            </div>
-                            <!-- .memebr-hover end -->
-                        </div>
-                        <!-- .memebr-ovelay end -->
-                    </div>
-                    <!-- .member-img end -->
-                    <div class="member-info">
-                        <h5>Anthony Kevin</h5>
-                        <h6>Chef Assistant</h6>
-                    </div>
-                    <!-- .member-info end -->
-                </div>
-                <!-- .member end -->
-            </div>
-            <!-- .col-md-3 end -->
+            }
+           
+            
 
         </div>
     </div>
@@ -420,7 +177,7 @@
                     <p class="heading--subtitle">Top skills</p>
                     <h2 class="heading--title">Creative Chefs</h2>
                     <div class="divider--shape-4"></div>
-                    <p class="heading--desc">Granny was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
+                    <p class="heading--desc">Odyssey was the first retaurant to open in Egypt, the resturant was designed with the history in mind we have created a soft industrial dining room, combined with an open kitchen, coffee take out bar and on site coffee roastery.</p>
                 </div>
             </div>
             <!-- .col-md-8 end -->
@@ -432,7 +189,7 @@
                 <!-- progress 1 -->
                 <div class="progressbar">
                     <div class="progress-title">
-                        <span class="title">Thai Food</span>
+                        <span class="title">Azerbaijan Food</span>
                         <span class="value">95%</span>
                     </div>
                     <div class="progress">
@@ -445,10 +202,10 @@
                 <div class="progressbar">
                     <div class="progress-title">
                         <span class="title">Arabic Food</span>
-                        <span class="value">80%</span>
+                        <span class="value">60%</span>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                 </div>
@@ -459,11 +216,11 @@
                 <!-- progress 2 -->
                 <div class="progressbar">
                     <div class="progress-title">
-                        <span class="title">Chinese Food</span>
-                        <span class="value">90%</span>
+                        <span class="title">Asian Food</span>
+                        <span class="value">50%</span>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
                         </div>
                     </div>
                 </div>
