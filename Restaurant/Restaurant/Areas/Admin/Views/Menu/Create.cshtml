@@ -1,7 +1,7 @@
 ﻿@model RMS.Core.Entities.MenuItem
 
 @{
-    var categories = ViewBag.Categories as List<RMS.Core.Entities.Category>;
+    var categories = ViewBag.Categories;
 }
 
 <main>
@@ -42,25 +42,17 @@
                                 <div class="col-md-6">
                                     <label asp-for="CategoryId" class="form-label">Category</label>
                                     <select asp-for="CategoryId" class="form-control">
-                                        @if (categories == null && !categories.Any())
+                                        @if (categories == null)
                                         {
                                             <option value="">No categories available</option>
-                                            
+
                                         }
                                         else
                                         {
-                                            <div class="form-group">
-                                                <label asp-for="CategoryId" class="form-label">Table</label>
-                                                <select id="TableId" asp-for="CategoryId" class="form-control">
-                                                    <option value="">Select Table</option>
-                                                    @foreach (var table in categories)
-                                                    {
-                                                        <option value="@table.Id">
-                                                            @table.Name
-                                                        </option>
-                                                    }
-                                                </select>
-                                            </div>
+                                            @foreach (var cate in categories)
+                                            {
+                                                <option value="@cate.Id">@cate.Name</option>
+                                            }
                                         }
                                     </select>
                                     <span asp-validation-for="CategoryId" style="color:red"></span>

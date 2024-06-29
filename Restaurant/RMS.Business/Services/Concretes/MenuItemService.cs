@@ -25,7 +25,8 @@ namespace RMS.Business.Services.Concretes
         public async Task<IEnumerable<CategoryGetDTO>> GetAvailableCategoryAsync()
         {
             var cate = await _categoryRepository.GetAllAsync(t => !t.IsDeleted);
-            return cate.Select(t => new CategoryGetDTO { Id = t.Id, Name = t.Name,});
+            return cate.Select(t => new CategoryGetDTO { Id = t.Id, Name = t.Name, }).ToList();
+
         }
         public async Task Create(MenuItem menuItem)
         {
@@ -120,15 +121,16 @@ namespace RMS.Business.Services.Concretes
                 {
                     UpdateDTO.ImageFile.CopyTo(stream);
                 }
-
                 oldEntity.ImageUrl = filename;
+            }
+                
                 oldEntity.Name = UpdateDTO.Name;
                 oldEntity.Price = UpdateDTO.Price;
                 oldEntity.CategoryId = UpdateDTO.CategoryId;
                 oldEntity.Category = UpdateDTO.Category;
                 oldEntity.Description = UpdateDTO.Description;
                 await _menuItemRepository.CommitAsync();
-            }
+            
         }
     }
 }

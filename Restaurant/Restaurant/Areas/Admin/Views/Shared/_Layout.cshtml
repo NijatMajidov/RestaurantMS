@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en" data-footer="true">
 <head>
     <meta charset="UTF-8" />
@@ -62,7 +63,7 @@
             <div class="nav-content d-flex">
                 <!-- Logo Start -->
                 <div class="logo position-relative">
-                    <a href="Dashboards.Default.html">
+                    <a <a asp-area="admin" asp-action="Index" asp-controller="Dashboard">>
                         <!-- Logo can be added directly -->
                         <!-- <img src="~/manage/img/logo/logo-white.svg" alt="logo" /> -->
                         <!-- Or added via css to provide different ones for different color themes -->
@@ -70,16 +71,15 @@
                     </a>
                 </div>
                 <!-- Logo End -->
-               
                 <!-- User Menu Start -->
                 <div class="user-container d-flex">
                     <a href="#" class="d-flex user position-relative" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         @if (User.Identity.IsAuthenticated)
                         {
-                           <img class="profile" alt="profile" src="~/manage/img/profile/profile-2.webp" />
+                            <img class="profile" alt="profile" src="~/manage/img/profile/profile-2.webp" />
                             <div class="name">@User.Identity.Name </div>
                         }
-                        
+
                     </a>
                     <div class="dropdown-menu dropdown-menu-end user-menu wide">
                         <div class="row mb-3 ms-0 me-0">
@@ -92,17 +92,17 @@
                                         <a asp-action="UserInfo">User Info</a>
                                     </li>
                                     <li>
-                                        <a href="#">Preferences</a>
+                                        <a asp-action="Chats">Chats</a>
                                     </li>
                                     <li>
-                                        <a href="#">Calendar</a>
+                                        <a asp-action="Calendar">Calendar</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-6 pe-1 ps-1">
                                 <ul class="list-unstyled">
                                     <li>
-                                        <a href="#">Security</a>
+                                       <a asp-area="" asp-action="Index" asp-controller="Home">Home</a>
                                     </li>
                                     <li>
                                         <a href="#">Billing</a>
@@ -177,8 +177,8 @@
                 <!-- User Menu End -->
                 <!-- Icons Menu Start -->
                 <ul class="list-unstyled list-inline text-center menu-icons">
-                   
-                    
+
+
                     <li class="list-inline-item">
                         <a href="#" id="colorButton">
                             <i data-acorn-icon="light-on" class="light" data-acorn-size="18"></i>
@@ -229,12 +229,27 @@
                 <div class="menu-container flex-grow-1">
                     <ul id="menu" class="menu">
                         <li>
-                            <a href="#dashboards" data-href="Dashboards.html">
+                            <a asp-action="index" data-href="Dashboards.html">
                                 <i data-acorn-icon="home" class="icon" data-acorn-size="18"></i>
                                 <span class="label">Dashboards</span>
                             </a>
-                            
+
                         </li>
+
+                        <li>
+                            <a asp-action="index" asp-controller="Home" asp-area="" data-href="Dashboards.html">
+                                <i data-acorn-icon="home" class="icon" data-acorn-size="18"></i>
+                                <span class="label">GO back Home</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a asp-action="UserInfo" data-href="Pages.html">
+                                <i data-acorn-icon="notebook-1" class="icon" data-acorn-size="18"></i>
+                                <span class="label">User Info</span>
+                            </a>
+                        </li>
+                        
                         <li>
                             <a href="#apps" data-href="Apps.html">
                                 <i data-acorn-icon="screen" class="icon" data-acorn-size="18"></i>
@@ -256,7 +271,7 @@
                                         <span class="label">Contacts</span>
                                     </a>
                                 </li>
-                                
+
                             </ul>
                         </li>
                         <li>
@@ -302,7 +317,7 @@
                                                 <span class="label">Reservation</span>
                                             </a>
                                         </li>
-                                       
+
                                     </ul>
                                 </li>
                                 <li>
@@ -315,7 +330,12 @@
                                                 <span class="label">Restaurant</span>
                                             </a>
                                         </li>
-                                       
+                                        <li>
+                                            <a asp-action="index" asp-controller="Menu">
+                                                <span class="label">Menu</span>
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </li>
                                 <li>
@@ -328,13 +348,13 @@
                                                 <span class="label">Employee</span>
                                             </a>
                                         </li>
-                                      
+
                                     </ul>
                                 </li>
-                                
+
                             </ul>
                         </li>
-                        
+
                     </ul>
                 </div>
                 <!-- Menu End -->
@@ -681,7 +701,6 @@
         </div>
     </div>
     <!-- Theme Settings Modal End -->
-   
     <!-- Theme Settings Buttons Start -->
     <div class="settings-buttons-container">
         <button type="button" class="btn settings-button btn-primary p-0" data-bs-toggle="modal" data-bs-target="#settings" id="settingsButton">
@@ -760,4 +779,3 @@
     <!-- Page Specific Scripts End -->
 </body>
 </html>
-

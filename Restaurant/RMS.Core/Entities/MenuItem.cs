@@ -14,7 +14,7 @@ namespace RMS.Core.Entities
         [Required]
         public double Price { get; set; }
         public int CategoryId { get; set; }
-        public Category Category { get; set; }
+        public Category? Category { get; set; }
         public string? ImageUrl { get; set; }
         [NotMapped]
         public IFormFile? ImageFile { get; set; }

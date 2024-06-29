@@ -36,13 +36,15 @@
 <section id="team1" class="team team-1 team-shadow bg-white">
     <div class="container">
         <div class="row">
+
             @foreach (var item in Model)
             {
+
                 <div class="col-xs-12 col-sm-6 col-md-3">
                     <div class="member">
                         <div class="member-img">
                             <img src="~/uploads/Tables/@item.Table.ImageUrl" width="500" height="300" alt="member">
-                            
+
                             <!-- .memebr-ovelay end -->
                         </div>
                         <!-- .member-img end -->
@@ -55,6 +57,7 @@
                     </div>
                     <!-- .member end -->
                 </div>
+
             }
 
 
@@ -151,4 +154,3 @@
     </div>
     <!-- .container end -->
 </section>
-

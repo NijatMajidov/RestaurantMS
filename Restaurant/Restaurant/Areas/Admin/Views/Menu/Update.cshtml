@@ -1,1 +1,76 @@
-﻿
+﻿@model RMS.Core.Entities.MenuItem
+
+@{
+    var categories = ViewBag.Categories;
+}
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <section class="scroll-section" id="title">
+                    <div class="page-title-container">
+                        <h1 class="mb-0 pb-0 display-4">Create Menu Item</h1>
+                        <nav class="breadcrumb-container d-inline-block" aria-label="breadcrumb">
+                            <ul class="breadcrumb pt-0">
+                                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Home">Home</a></li>
+                                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Menu">Menu</a></li>
+                                <li class="breadcrumb-item"><a>Create</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <div>
+                    <div class="card mb-5">
+                        <div class="card-body">
+                            <form method="post" enctype="multipart/form-data" class="row g-3">
+                                <div class="col-md-6">
+                                    <label asp-for="Name" class="form-label">Name</label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" style="color:red"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Description" class="form-label">Description</label>
+                                    <input asp-for="Description" class="form-control" />
+                                    <span asp-validation-for="Description" style="color:red"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="Price" class="form-label">Price</label>
+                                    <input asp-for="Price" class="form-control" />
+                                    <span asp-validation-for="Price" style="color:red"></span>
+                                </div>
+                                <div class="col-md-6">
+                                    <label asp-for="CategoryId" class="form-label">Category</label>
+                                    <select asp-for="CategoryId" class="form-control">
+                                        @if (categories == null)
+                                        {
+                                            <option value="">No categories available</option>
+
+                                        }
+                                        else
+                                        {
+                                            @foreach (var cate in categories)
+                                            {
+                                                <option value="@cate.Id">@cate.Name</option>
+                                            }
+                                        }
+                                    </select>
+                                    <span asp-validation-for="CategoryId" style="color:red"></span>
+                                </div>
+                                <div class="col-md-4">
+                                    <label asp-for="ImageFile" class="form-label">Image File</label>
+                                    <input asp-for="ImageFile" class="form-control" />
+                                    <span asp-validation-for="ImageFile" style="color:red"></span>
+                                </div>
+                                <div asp-validation-summary="ModelOnly"></div>
+                                <div class="col-12 d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary">Create Menu Item</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
