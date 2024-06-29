@@ -18,10 +18,18 @@ namespace Restaurant.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Calendar()
+        {
+            return View();
+        }
         public async Task<IActionResult> UserInfo()
         {
             var user = await _userManager.GetUserAsync(User);
             return View(user);
+        }
+        public IActionResult Chat()
+        {
+            return View();
         }
     }
     
